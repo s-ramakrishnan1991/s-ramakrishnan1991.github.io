@@ -5,7 +5,7 @@ theme = 'PaperMod'
 
 [params]
     env = 'production'
-    description = "Optical Engineer" # Change this
+    description = "Sreenivas Ramakrishnan's Personal Website" # Change this
     author = "Sreenivas Ramakrishnan"
 	fingerprint = false
     
@@ -13,17 +13,10 @@ theme = 'PaperMod'
     [params.profileMode]
         enabled = true
         title = "Sreenivas Ramakrishnan"
-        subtitle = "Professional Title | Skills | Interests"
+        subtitle = "Optical Engineer, Quantum Technology Fanatic"
         imageUrl = "img/profile.jpg" # Place your photo in static/img/profile.jpg
         imageWidth = 120
         imageHeight = 120
-        
-        [[params.profileMode.buttons]]
-            name = "Blog"
-            url = "posts"
-        [[params.profileMode.buttons]]
-            name = "Projects"
-            url = "projects"
 
     # Social links (icons at the bottom)
     [[params.socialIcons]]
@@ -35,6 +28,9 @@ theme = 'PaperMod'
     [[params.socialIcons]]
         name = "xing"
         url = "https://www.xing.com/profile/Sreenivas_Ramakrishnan/web_profiles"
+	[[params.socialIcons]]
+		name = "email"
+		url = "mailto:sreenivas.ramakrishnan1991@gmail.com"
 
 # Menu Navigation
 [[menu.main]]
@@ -42,8 +38,8 @@ theme = 'PaperMod'
     url = "/about"
     weight = 10
 [[menu.main]]
-    name = "Blog"
-    url = "/posts"
+    name = "Training and Certifications"
+    url = "/training"
     weight = 20
 [[menu.main]]
     name = "Projects"
