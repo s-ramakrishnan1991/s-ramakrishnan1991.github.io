@@ -1,0 +1,50 @@
+baseURL = 'https://s-ramakrishnan1991.github.io/'
+languageCode = 'en-us'
+title = 'Sreenivas Ramakrishnan'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    description = "Optical Engineer" # Change this
+    author = "Sreenivas Ramakrishnan"
+    
+    # Profile Mode settings (matches the home page of the link provided)
+    [params.profileMode]
+        enabled = true
+        title = "Sreenivas Ramakrishnan"
+        subtitle = "Professional Title | Skills | Interests"
+        imageUrl = "img/profile.jpg" # Place your photo in static/img/profile.jpg
+        imageWidth = 120
+        imageHeight = 120
+        
+        [[params.profileMode.buttons]]
+            name = "Blog"
+            url = "posts"
+        [[params.profileMode.buttons]]
+            name = "Projects"
+            url = "projects"
+
+    # Social links (icons at the bottom)
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/s-ramakrishnan1991"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/sreenivas-ramakrishnan/"
+    [[params.socialIcons]]
+        name = "xing"
+        url = "https://www.xing.com/profile/Sreenivas_Ramakrishnan/web_profiles"
+
+# Menu Navigation
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 10
+[[menu.main]]
+    name = "Blog"
+    url = "/posts"
+    weight = 20
+[[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 30
