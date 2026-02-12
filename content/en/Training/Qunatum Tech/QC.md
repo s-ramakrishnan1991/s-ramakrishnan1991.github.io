@@ -1,6 +1,5 @@
 +++
 date = '2025-09-15'
-draft = true
 title = 'Quantum Computing and Programming Workshop'
 tags = ["Quantum Tech"]
 +++

@@ -1,7 +1,8 @@
 +++
+
 date = '2026-01-07'
-draft = true
 title = 'Atlassian Agile Project Management Professional Certificate'
+
 +++
 
 I completed the Atlassian Agile Project Management Professional Certificate on LinkedIn Learning. 

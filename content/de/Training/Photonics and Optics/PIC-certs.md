@@ -1,8 +1,7 @@
 +++
 date = '2025-12-22'
-draft = true
 title = 'Integrated Photonics Simulation Library'
-tags = ["Photonics"]
+tags = ["Photonik"]
 +++
 
 I completed the VM-Lab IPSL: Integrated Photonics Simulation Library course on Build Your Future, an online learning platform for technical subjects. 

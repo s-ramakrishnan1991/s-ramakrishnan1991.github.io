@@ -1,8 +1,7 @@
 +++
 date = '2025-10-15'
-draft = true
 title = 'Optical Engineering Professional Certificate'
-tags = ["Optics"]
+tags = ["Optik"]
 +++
 
 ## **[Optical Engineering Professional Development](https://www.coursera.org/account/accomplishments/specialization/0J65OGTZDCHO)** 

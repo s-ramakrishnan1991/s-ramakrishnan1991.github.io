@@ -1,6 +1,5 @@
 +++
 date = '2026-01-05'
-draft = true
 title = 'Quantum Sensing and Imaging (QTIndu)'
 tags = ["Quantum Tech"]
 +++

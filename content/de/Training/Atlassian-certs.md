@@ -1,6 +1,5 @@
 +++
 date = '2026-01-07'
-draft = true
 title = 'Atlassian Agile Project Management Professional Certificate'
 +++
 

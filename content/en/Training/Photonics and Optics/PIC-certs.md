@@ -1,6 +1,5 @@
 +++
 date = '2025-12-22'
-draft = true
 title = 'Integrated Photonics Simulation Library'
 tags = ["Photonics"]
 +++

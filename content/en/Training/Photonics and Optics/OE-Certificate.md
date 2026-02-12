@@ -1,6 +1,5 @@
 +++
 date = '2025-10-15'
-draft = true
 title = 'Optical Engineering Professional Certificate'
 tags = ["Optics"]
 +++

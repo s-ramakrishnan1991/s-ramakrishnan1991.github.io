@@ -1,6 +1,5 @@
 +++
 date = '2025-11-25'
-draft = true
 title = 'Qiskit Bootcamp'
 tags = ["Quantum Tech"]
 +++

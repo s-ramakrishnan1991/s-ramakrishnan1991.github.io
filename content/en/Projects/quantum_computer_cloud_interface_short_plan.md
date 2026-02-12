@@ -1,6 +1,7 @@
 +++
-draft = true
+
 title = 'RPi Quantum Computer Cloud Interface'
+
 +++
 
 ## Project Summary
