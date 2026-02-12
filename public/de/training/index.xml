@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Weiterbildung on Sreenivas Ramakrishnan</title>
+    <link>http://localhost:1313/de/training/</link>
+    <description>Recent content in Weiterbildung on Sreenivas Ramakrishnan</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atlassian Agile Project Management Professional Certificate</title>
+      <link>http://localhost:1313/de/training/atlassian-certs/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/de/training/atlassian-certs/</guid>
+      <description>&lt;p&gt;I completed the Atlassian Agile Project Management Professional Certificate on LinkedIn Learning.
+This was a structured learning path made up of six online courses with about 7 hours of content. The certificate is endorsed by Atlassian, a leader in project management and collaboration tools like Jira.
+By finishing all six courses and passing the final assessment, I earned a professional certificate that I could add to my LinkedIn profile.
+This helped me improve my project management skills, especially in Agile environments and Jira Software.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

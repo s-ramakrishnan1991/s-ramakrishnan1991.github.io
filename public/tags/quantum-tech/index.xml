@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quantum Tech on Sreenivas Ramakrishnan</title>
+    <link>http://localhost:1313/tags/quantum-tech/</link>
+    <description>Recent content in Quantum Tech on Sreenivas Ramakrishnan</description>
+    <generator>Hugo -- 0.155.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quantum-tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum Communication and Quantum Networks</title>
+      <link>http://localhost:1313/training/qunatum-tech/qcomm-certs/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/training/qunatum-tech/qcomm-certs/</guid>
+      <description>&lt;p&gt;I recently completed the Quantum Communication and Quantum Networks course from Qureca, which is part of the QTIndu project.
+The course took me about 5 hours to finish and was at an intermediate level. It gave me strong basic knowledge about how quantum ideas can change the way we communicate and connect systems.&lt;/p&gt;
+&lt;h3 id=&#34;course-overview&#34;&gt;&lt;strong&gt;Course Overview&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This course introduced me to the world of quantum communication.
+First, it talked about how regular (classical) communication works today. Then it explained how quantum communication is different and why it is very important for future secure communication.
+I also learned new ideas like post-quantum cryptography and quantum key distribution (QKD). These are tools that help protect information with quantum physics principles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Sensing and Imaging (QTIndu)</title>
+      <link>http://localhost:1313/training/qunatum-tech/qs-certs/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/training/qunatum-tech/qs-certs/</guid>
+      <description>&lt;p&gt;I recently completed the Quantum Sensing and Imaging course offered by Qureca through the QTIndu programme.
+This course was about 30 hours long and designed for learners with some interest or background in science.
+It helped me understand how quantum science is used to make very accurate measurements and new kinds of imaging systems.&lt;/p&gt;
+&lt;h3 id=&#34;course-overview&#34;&gt;&lt;strong&gt;Course Overview&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This course gave me a clear introduction to a field called quantum sensing and imaging.
+This area uses ideas from quantum physics to measure things in ways that are much more precise than ordinary tools.
+It also shows how these technologies are used in real life and what companies are working on them. I found the topics interesting and practical.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Hackathon</title>
+      <link>http://localhost:1313/training/qunatum-tech/quantum-hackathon/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/training/qunatum-tech/quantum-hackathon/</guid>
+      <description>&lt;h2 id=&#34;quantum-hackathon--push-quantum-tu-munich&#34;&gt;&lt;strong&gt;Quantum Hackathon | Push Quantum (TU Munich)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;special-mention-for-innovation-in-ansatz-design--software-workflow&#34;&gt;Special Mention for Innovation in Ansatz Design &amp;amp; Software Workflow&lt;/h2&gt;
+&lt;p&gt;28 Nov 2025&lt;/p&gt;
+&lt;p&gt;Will be updated soon&lt;/p&gt;
+&lt;p&gt;29 Nov 2025&lt;/p&gt;
+&lt;p&gt;Will be updated soon&lt;/p&gt;
+&lt;p&gt;30 Nov 2025&lt;/p&gt;
+&lt;h3 id=&#34;hybrid-quantum-computing&#34;&gt;Hybrid Quantum Computing:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework.&lt;/li&gt;
+&lt;li&gt;I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;algorithmic-parallelization&#34;&gt;Algorithmic Parallelization:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule.&lt;/li&gt;
+&lt;li&gt;This allowed for the precise identification of optimal bond lengths and ground state energies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;advanced-ansatz-engineering&#34;&gt;Advanced Ansatz Engineering:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia,&lt;/li&gt;
+&lt;li&gt;I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h3&gt;
+&lt;p&gt;Languages: Python&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Qiskit Bootcamp</title>
+      <link>http://localhost:1313/training/qunatum-tech/qiskit/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/training/qunatum-tech/qiskit/</guid>
+      <description>&lt;h2 id=&#34;qiskit-fall-fest-2025-pushquantum-online-bootcamp&#34;&gt;&lt;strong&gt;Qiskit Fall Fest 2025: PushQuantum Online Bootcamp&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;ibm-quantum-event--2025&#34;&gt;&lt;strong&gt;IBM Quantum Event | 2025&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I deepened technical proficiency in quantum computing through an intensive bootcamp focused on the IBM Quantum ecosystem and the Qiskit framework.&lt;/p&gt;
+&lt;h3 id=&#34;key-competencies-gained&#34;&gt;&lt;strong&gt;Key Competencies Gained:&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. Quantum Programming &amp;amp; Development:&lt;/strong&gt;
+I Developed and executed quantum circuits using Python and Qiskit, gaining hands-on experience with the full development lifecycle.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Hardware Execution &amp;amp; Scaling:&lt;/strong&gt;
+I mastered the process of submitting jobs to IBM Quantum backends and explored strategies for scaling algorithms to a larger number of qubits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Computing and Programming Workshop</title>
+      <link>http://localhost:1313/training/qunatum-tech/qc/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/training/qunatum-tech/qc/</guid>
+      <description>&lt;h2 id=&#34;qworld-qbronze-online-entangling-workshop&#34;&gt;&lt;strong&gt;QWorld: QBronze Online Entangling Workshop&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Through this intensive program, I transitioned from classical programming logic to quantum-native development using Python and Qiskit. I developed a basic foundation in quantum mechanics and the algorithmic structures that drive the next generation of computing.&lt;/p&gt;
+&lt;h3 id=&#34;key-knowledge--technical-milestones&#34;&gt;&lt;strong&gt;Key Knowledge &amp;amp; Technical Milestones&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. Quantum Circuit Engineering&lt;/strong&gt;
+Qiskit Integration: Mastered the workflow for designing, building, and executing quantum circuits on simulated environments.&lt;/p&gt;
+&lt;p&gt;State Manipulation: Developed an intuition for quantum superposition and the application of the Hadamard Operator to create probabilistic states.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

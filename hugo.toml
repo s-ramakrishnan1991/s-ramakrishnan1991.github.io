@@ -6,18 +6,22 @@ theme = 'PaperMod'
 [params]
     env = 'production'
     description = "Sreenivas Ramakrishnan's Personal Website" # Change this
-    author = "Sreenivas Ramakrishnan"
+	showFullTextContent = false
 	fingerprint = false
-    
+	displayFullLangName = true
+	hideFooter = false
+	disableThemeToggle = false
+	disableScrollToTop = false
+	
     # Profile Mode settings (matches the home page of the link provided)
-    [params.profileMode]
-        enabled = true
-        title = "Sreenivas Ramakrishnan"
-        subtitle = "Optical Engineer, Quantum Technology Fanatic"
-        imageUrl = "img/profile.jpg" # Place your photo in static/img/profile.jpg
-        imageWidth = 120
-        imageHeight = 120
-
+    #[params.profileMode]
+        #enabled = true
+        #title = "Sreenivas Ramakrishnan"
+        #subtitle = "Optical Engineer, Quantum Technology Fanatic"
+        #imageUrl = "img/profile.jpg" # Place your photo in static/img/profile.jpg
+        #imageWidth = 140
+        #imageHeight = 200
+		
     # Social links (icons at the bottom)
     [[params.socialIcons]]
         name = "github"
@@ -31,20 +35,68 @@ theme = 'PaperMod'
 	[[params.socialIcons]]
 		name = "email"
 		url = "mailto:sreenivas.ramakrishnan1991@gmail.com"
-
-# Menu Navigation
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 10
-[[menu.main]]
-    name = "Training and Certifications"
-    url = "/training"
-    weight = 20
-[[menu.main]]
-    name = "Projects"
-    url = "/projects"
-    weight = 30
+	
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+	
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    languageName = 'Deutsch'
+    weight = 2
+	[[languages.de.menu.main]]
+		name = "Startseite"
+		url = "/de/"
+		weight = 1
+	[[languages.de.menu.main]]
+		name = "Über mich"
+		url = "/de/about/"
+		weight = 2
+	[[languages.de.menu.main]]
+		name = "Schulungen und Zertifizierungen"
+		url = "/de/training/"
+		weight = 3
+	[[languages.de.menu.main]]
+		name = "Projekte"
+		url = "de/projects/"
+		weight = 4
+	[languages.de.params.profileMode]
+		enabled = true
+        title = "Sreenivas Ramakrishnan"
+        subtitle = "Optikingenieur, Quantum Technologie Fanatiker"
+		imageUrl = "img/profile.jpg"
+		imageWidth = 140
+        imageHeight = 200
+	
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    weight = 1
+	[[languages.en.menu.main]]
+		name = "Home"
+		url = "/"
+		weight = 1
+	[[languages.en.menu.main]]
+		name = "About"
+		url = "/about/"
+		weight = 2
+	[[languages.en.menu.main]]
+		name = "Training and Certifications"
+		url = "/training"
+		weight = 3
+	[[languages.en.menu.main]]
+		name = "Projects"
+		url = "/projects"
+		weight = 4
+	[languages.en.params.profileMode]
+        enabled = true
+        title = "Sreenivas Ramakrishnan"
+        subtitle = "Optical Engineer, Quantum Technology Fanatic"
+		imageUrl = "img/profile.jpg"
+		imageWidth = 140
+        imageHeight = 200
+        
