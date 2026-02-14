@@ -1,54 +1,43 @@
 +++
 date = '2025-10-15'
-title = 'Optical Engineering Professional Certificate'
+title = 'Berufszertifikat in Optical Engineering'
 tags = ["Optik"]
 +++
 
 ## **[Optical Engineering Professional Development](https://www.coursera.org/account/accomplishments/specialization/0J65OGTZDCHO)** 
 
-### **Course-3 Design of High-Performance Optical Systems**
-#### University of Colorado Boulder (via Coursera) | May 2025 – Oct 2025
+### **Kurs 3: Design von Hochleistungs-Optiksystemen**
+#### University of Colorado Boulder (via Coursera) | Mai 2025 – Okt 2025
 
-**Advanced Optical Modeling:** Gained expertise in modeling wavelength propagation and chromatic effects across complex optical systems.
+* **Fortgeschrittene optische Modellierung:** Ich habe Fachwissen in der Modellierung von Wellenlängenausbreitung und chromatischen Effekten in komplexen Systemen erworben.
+* **Aberrationskontrolle:** Ich habe technische Strategien entwickelt, um Aberrationen höherer Ordnung zu korrigieren und die Leistung von Instrumenten zu verbessern.
+* **Nicht-paraxiale Analyse:** Ich habe gelernt, wie man Systeme mit hohen Winkeln analysiert, bei denen einfache Annäherungen nicht mehr ausreichen.
 
-**Aberration Control:** Developed technical strategies for identifying and correcting higher-order aberrations to enhance instrument performance.
+[Zertifikat](https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF)
 
-**Non-Paraxial Analysis:** Mastered the analysis of high-angle, non-paraxial systems where first-order approximations no longer apply.
-
-[Certificate](https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF)
-
-### **Course-2 Optical Efficiency and Resolution**
+### **Kurs 2: Optische Effizienz und Auflösung**
 #### University of Colorado Boulder (via Coursera) | Jan 2025 – Apr 2025
 
-**Fourier Optics & Resolution:** Applied Fourier Optics principles to determine theoretical resolution limits and imaging system performance.
+* **Fourier-Optik & Auflösung:** Ich habe Prinzipien der Fourier-Optik angewendet, um theoretische Auflösungsgrenzen zu bestimmen.
+* **Ray Tracing & System-Layout:** Ich habe die Position von Blenden und Pupillen sowie die Winkel von Rand- und Hauptstrahlen berechnet.
+* **Systemeinschränkungen:** Ich habe die Schärfentiefe und die maximale Anzahl auflösbarer Punkte für verschiedene Konfigurationen bewertet.
 
-**Ray Tracing & System Layout:** Expertly calculated the placement of stops and pupils, as well as the heights and angles of marginal and chief rays.
+**Wichtige Projekte:**
+* Design von paraxialen Gauß-Systemen, wie zum Beispiel Faser-Kollimatoren und Raumfilter.
+* Entwicklung eines afokalen Kepler-Teleskops von Grund auf basierend auf technischen Vorgaben.
 
-**System Constraints:** Evaluated depth of focus and the maximum number of resolvable spots for various optical configurations.
+[Zertifikat](https://www.coursera.org/account/accomplishments/certificate/662M04NFP8YC)
 
-**Key Projects:**
+### **Kurs 1: Optisches Design erster Ordnung**
+#### University of Colorado Boulder (via Coursera) | Okt 2024 – Dez 2024
 
-Designed paraxial Gaussian systems, including fiber collimators and spatial filters.
+* **Systemoptimierung:** Ich habe gelernt, Optimierungsvariablen und Bewertungsfunktionen zu definieren, um Designziele zu erreichen.
+* **Optisches Systemdesign:** Ich habe Zemax OpticStudio genutzt, um digitale Zwillinge von optischen Systemen für Simulationen zu erstellen.
+* **Diagnostische Analyse:** Ich habe die Systemqualität durch Spot-Diagramme, MTF-Kurven und Ray-Fan-Plots analysiert.
+* **Algorithmen-Anwendung:** Ich habe lokale und globale Optimierer genutzt, um ideale Lösungen in komplexen Parameterräumen zu finden.
 
-Engineered an afocal Keplerian telescope from scratch based on rigorous technical specifications.
+[Zertifikat](https://www.coursera.org/account/accomplishments/certificate/LNW7IH5PQEH1)
 
-[Certificate](https://www.coursera.org/account/accomplishments/certificate/662M04NFP8YC)
-
-### **Course-1 First-Order Optical Design**
-#### University of Colorado Boulder (via Coursera) | Oct 2024 – Dec 2024
-
-**System Optimization:** Developed proficiency in defining optimization variables and merit functions to meet specific design targets.
-
-**Optical System Design:** Utilized Zemax OpticStudio to build precise digital twins of optical systems for performance simulation.
-
-**Diagnostic Analysis:** Analyzed system quality through the interpretation of spot diagrams, MTF plots, and ray fan plots.
-
-**Algorithm Application:** Leveraged both local and global optimizers to find ideal design solutions within complex parameter spaces.
-
-[Certificate](https://www.coursera.org/account/accomplishments/certificate/LNW7IH5PQEH1)
-
-### Technical Stack 
-
-Software: Ansys Zemax OpticStudio (Optimization, Merit Functions, Non-Paraxial Modeling), MATLAB.
-
-Specialties: Gaussian Beam Optics, Fourier Optics, Aberration Correction, Telescope Design.
+### Technisches Profil
+* **Software:** Ansys Zemax OpticStudio (Optimierung, Merit Functions, nicht-paraxiale Modellierung), MATLAB.
+* **Spezialgebiete:** Gauß-Strahloptik, Fourier-Optik, Aberrationskorrektur, Teleskopdesign.

@@ -2,21 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://s-ramakrishnan1991.github.io/about/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://s-ramakrishnan1991.github.io/de/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://s-ramakrishnan1991.github.io/about/"
-                />
+    <loc>https://s-ramakrishnan1991.github.io/blog/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://s-ramakrishnan1991.github.io/blog/formula-1/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://s-ramakrishnan1991.github.io/blog/formula-1/new-teams/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -27,6 +23,9 @@
                 hreflang="en"
                 href="https://s-ramakrishnan1991.github.io/"
                 />
+  </url><url>
+    <loc>https://s-ramakrishnan1991.github.io/blog/formula-1/f1-rules-2026/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qcomm-certs/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
@@ -203,6 +202,18 @@
                 href="https://s-ramakrishnan1991.github.io/training/qunatum-tech/qc/"
                 />
   </url><url>
+    <loc>https://s-ramakrishnan1991.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://s-ramakrishnan1991.github.io/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://s-ramakrishnan1991.github.io/about/"
+                />
+  </url><url>
     <loc>https://s-ramakrishnan1991.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -216,27 +227,7 @@
                 />
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/projects/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://s-ramakrishnan1991.github.io/de/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://s-ramakrishnan1991.github.io/projects/"
-                />
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/projects/quantum_computer_cloud_interface_short_plan/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://s-ramakrishnan1991.github.io/de/projects/quantum_computer_cloud_interface_short_plan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://s-ramakrishnan1991.github.io/projects/quantum_computer_cloud_interface_short_plan/"
-                />
   </url>
 </urlset>

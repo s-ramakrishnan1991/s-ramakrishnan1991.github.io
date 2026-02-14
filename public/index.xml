@@ -6,14 +6,29 @@
     <description>Recent content on Sreenivas Ramakrishnan</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://s-ramakrishnan1991.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://s-ramakrishnan1991.github.io/about/</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://s-ramakrishnan1991.github.io/about/</guid>
-      <description>&lt;p&gt;Hi! I am Sreenivas Ramakrishnan and this is my personal website&lt;/p&gt;</description>
+      <title>New Teams mean Tighter Grid</title>
+      <link>https://s-ramakrishnan1991.github.io/blog/formula-1/new-teams/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/blog/formula-1/new-teams/</guid>
+      <description>&lt;p&gt;The 2026 season is special because the grid is growing! For the first time in many years, we have more than 10 teams. There are also big changes for the companies that build the engines.&lt;/p&gt;
+&lt;h2 id=&#34;1-cadillac-the-11th-team&#34;&gt;&lt;strong&gt;1. Cadillac (The 11th Team)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The biggest news for 2026 is the arrival of Cadillac. This is a famous American brand.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Team:&lt;/strong&gt; They are the 11th team on the grid. They are working with the Andretti family (a very famous name in racing).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>F1 2026 - New Regulations Explained</title>
+      <link>https://s-ramakrishnan1991.github.io/blog/formula-1/f1-rules-2026/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/blog/formula-1/f1-rules-2026/</guid>
+      <description>&lt;p&gt;Welcome to the 2026 Formula 1 season! This year is very exciting because the cars have changed a lot.
+The new rules make the racing closer, the cars smaller, and the engines &amp;ldquo;greener.&amp;rdquo;
+Here is a simple guide to the biggest changes in F1 for 2026.&lt;/p&gt;
+&lt;h2 id=&#34;1-smaller-and-lighter-cars&#34;&gt;&lt;strong&gt;1. Smaller and Lighter Cars&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In the past few years, F1 cars were very big and heavy. For 2026, the FIA (the people who make the rules) decided to make them &amp;ldquo;nimble.&amp;rdquo;
+This means they are easier to move and better for racing in tight spaces.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quantum Communication and Quantum Networks</title>
@@ -127,9 +142,33 @@ I mastered the process of submitting jobs to IBM Quantum backends and explored s
       <description>&lt;h2 id=&#34;qworld-qbronze-online-entangling-workshop&#34;&gt;&lt;strong&gt;QWorld: QBronze Online Entangling Workshop&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Through this intensive program, I transitioned from classical programming logic to quantum-native development using Python and Qiskit. I developed a basic foundation in quantum mechanics and the algorithmic structures that drive the next generation of computing.&lt;/p&gt;
 &lt;h3 id=&#34;key-knowledge--technical-milestones&#34;&gt;&lt;strong&gt;Key Knowledge &amp;amp; Technical Milestones&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. Quantum Circuit Engineering&lt;/strong&gt;
-Qiskit Integration: Mastered the workflow for designing, building, and executing quantum circuits on simulated environments.&lt;/p&gt;
-&lt;p&gt;State Manipulation: Developed an intuition for quantum superposition and the application of the Hadamard Operator to create probabilistic states.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;1. Quantum Circuit Engineering&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qiskit Integration:&lt;/strong&gt; Mastered the workflow for designing, building, and executing quantum circuits on simulated environments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;State Manipulation:&lt;/strong&gt; Developed an intuition for quantum superposition and the application of the Hadamard Operator to create probabilistic states.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Geometric &amp;amp; Mathematical Foundations&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://s-ramakrishnan1991.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/about/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;I reside in Munich, Germany and l am passionate about the field of Optics and Quantum Technologies.
+As I am new to the field of Quantum, I am exposing myself by doing relevant certifications and attending workshops. &lt;a href=&#34;https://s-ramakrishnan1991.github.io/training/qunatum-tech/&#34;&gt;Training and Certifications - Quantum Tech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Last year, I attended the Quantum Hackathon organised by Push Quantum (Munich) which pushed me to learn, work as a team and execute under time limits.
+This kindled my interest even more and you can find my details to my first on-going &lt;a href=&#34;https://s-ramakrishnan1991.github.io/projects/&#34;&gt;project&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;arbitrary-facts-about-me&#34;&gt;&lt;strong&gt;Arbitrary Facts About Me&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hi! I am Sreenivas Ramakrishnan (Sreeni is better) and this is my personal website.&lt;/li&gt;
+&lt;li&gt;I am an ambivert and a Polyglot (Tamil, Hindi, Telugu, Malayalam, English and German)[not boasting]&lt;/li&gt;
+&lt;li&gt;I like me sometimes and I do not like me sometimes, but in other times it can be a superposition of both. Not a classical one rather a quantum one.&lt;/li&gt;
+&lt;li&gt;I am an ardent F1 fan from 2014 when the turbo-hybrid era started (Ferrari&amp;rsquo;s do not particlularly like the hybrids cause they are stuck in the past with the gasoline engine and the sound).
+Although, I am a LH fan and he is in Ferrari now, I have no other go but to support him. &lt;a href=&#34;https://s-ramakrishnan1991.github.io/blog/formula-1/&#34;&gt;My F1-Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Formula Academy, Formula E and Tennis (Only Grand Slams) are not foreign to me. I hope Nole gets his 25th slam.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>RPi Quantum Computer Cloud Interface</title>

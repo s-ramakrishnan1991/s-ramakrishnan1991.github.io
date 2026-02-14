@@ -4,43 +4,34 @@ title = 'Quantum Hackathon'
 tags = ["Quantum Tech"]
 +++
 
-## **Quantum Hackathon | Push Quantum (TU Munich)**
+## **Quantum Hackathon | Push Quantum (TU München)**
 
-## Special Mention for Innovation in Ansatz Design & Software Workflow
+## Besondere Erwähnung für Innovation im Ansatz-Design & Software-Workflow
 
-28 Nov 2025 
+28. Nov. 2025  
+Wird bald aktualisiert
 
-Will be updated soon 
+29. Nov. 2025  
+Wird bald aktualisiert
 
+30. Nov. 2025
 
+### Hybrides Quantencomputing:
+- Ich habe praktische Erfahrung mit der „divi“-Bibliothek gesammelt, um ein System für verteiltes Rechnen aufzubauen.
+- Ich habe gelernt, wie man die Rechenlast zwischen klassischen Computern und Quanten-Knoten verteilt und die Verbindung zwischen beiden Umgebungen steuert.
 
-29 Nov 2025
+### Algorithmische Parallelisierung:
+- Ich habe ein tiefes Verständnis für den Variational Quantum Eigensolver (VQE) entwickelt, indem ich Prozesse zur Simulation des Wasserstoffmoleküls parallelisiert habe.
+- Dies ermöglichte die genaue Bestimmung von optimalen Bindungslängen und Grundzustandsenergien.
 
+### Fortgeschrittenes Ansatz-Engineering:
+- Ich habe Erfahrung im Design von hardware-effizienten, maßgeschneiderten Ansätzen gesammelt.
+- Ich habe eine skalierbare Alternative zum UCCSD-Ansatz für Ammoniak entwickelt. Dabei habe ich die Standard-Genauigkeit der Industrie erreicht, aber die Tiefe des Schaltkreises und die Anzahl der Gatter deutlich reduziert.
 
-Will be updated soon
-
-
-
-30 Nov 2025
-
-### Hybrid Quantum Computing: 
-- I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework. 
-- I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments.
-
-### Algorithmic Parallelization: 
-- I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule. 
-- This allowed for the precise identification of optimal bond lengths and ground state energies.
-
-### Advanced Ansatz Engineering: 
-- I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia, 
-- I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead.
-
-### Technical Stack 
-Languages: Python
-
-Quantum Frameworks: PennyLane, divi
-
-Algorithms: VQE, UCCSD, Custom Hardware-Efficient Ansätze
+### Technisches Profil
+* **Sprachen:** Python
+* **Quanten-Frameworks:** PennyLane, divi
+* **Algorithmen:** VQE, UCCSD, Hardware-effiziente Ansätze
 
 [GitHub](https://github.com/pedro2mj/qats/tree/main/tutorials/solutions)
 [Team - Qatz](https://github.com/pedro2mj/qats)

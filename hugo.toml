@@ -61,10 +61,6 @@ disableDefaultLanguageRedirect = false
 		name = "Schulungen und Zertifizierungen"
 		url = "/de/training/"
 		weight = 3
-	[[languages.de.menu.main]]
-		name = "Projekte"
-		url = "de/projects/"
-		weight = 4
 	[languages.de.params.profileMode]
 		enabled = true
         title = "Sreenivas Ramakrishnan"
@@ -93,6 +89,10 @@ disableDefaultLanguageRedirect = false
 		name = "Projects"
 		url = "/projects"
 		weight = 4
+	[[languages.en.menu.main]]
+		name = "Blog"
+		url = "/blog"
+		weight = 5
 	[languages.en.params.profileMode]
         enabled = true
         title = "Sreenivas Ramakrishnan"

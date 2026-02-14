@@ -4,50 +4,50 @@ title = 'Integrated Photonics Simulation Library'
 tags = ["Photonik"]
 +++
 
-I completed the VM-Lab IPSL: Integrated Photonics Simulation Library course on Build Your Future, an online learning platform for technical subjects. 
-This course was part of an advanced series focused on integrated photonics, and it helped me develop a solid understanding of how light behaves inside tiny optical devices through interactive simulations.
-By studying this course, I gained practical skills in visualising and analysing photonic systems and I earned a certificate of completion that shows I successfully understood and applied the course content.
+Ich habe den Kurs „VM-Lab IPSL: Integrated Photonics Simulation Library“ auf der Lernplattform „Build Your Future“ abgeschlossen. 
+Dieser Kurs gehört zu einer fortgeschrittenen Reihe über integrierte Photonik. 
+Er hat mir geholfen zu verstehen, wie sich Licht in winzigen optischen Geräten verhält. 
+Durch den Kurs habe ich praktische Fähigkeiten in der Analyse von photonischen Systemen erworben und ein Zertifikat erhalten.
 
-### **What the Course Was About**
+### **Worum ging es in dem Kurs?**
 
-The course was called the Integrated Photonics Simulation Library, and it was designed to teach beginners and intermediate learners how to think about photonic integrated circuits (PICs) using simulation tools. 
-These circuits are like electronic chips but for light instead of electricity. The course used web-based simulations that allowed me to interact with components visually and see how light moves and changes inside them.
-It was a self-paced course, and I could study it in my own time, spending a few hours each week to watch videos, use the interactive tools, and complete the exercises.
+Der Kurs wurde entwickelt, um Anfängern und Fortgeschrittenen den Umgang mit photonischen integrierten Schaltkreisen (PICs) durch Simulationen beizubringen. 
+Diese Schaltkreise funktionieren wie Computerchips, aber sie nutzen Licht anstelle von Elektrizität. 
+Der Kurs nutzte Web-Simulationen, mit denen ich sehen konnte, wie sich Licht in den Komponenten bewegt und verändert. 
+Es war ein Kurs zum Selbststudium, für den ich jede Woche ein paar Stunden investiert habe.
 
-### **Topics I Learned**
+### **Themen, die ich gelernt habe**
 
-**Understanding Light and Waveguides**
+**Licht und Wellenleiter verstehen**
+* Zu Beginn habe ich gelernt, wie Licht durch winzige Kanäle, sogenannte Wellenleiter, reist. 
+* Diese Kanäle leiten Licht so, wie Kabel Strom leiten. 
+* Ich habe gelernt, wie Lichtwellen verschiedene Formen (Moden) annehmen und wie das das Verhalten in echten Geräten beeinflusst.
 
-In the beginning, I learned how light travels inside tiny channels called waveguides. These channels guide light in photonic circuits the same way wires guide electricity. 
-I learned how the modes (shapes the light waves can take) appear, and how these modes affect the behaviour of light in real devices. This helped me build deeper intuition about wave behaviour beyond simple ray optics.
+**Elektromagnetische Konzepte und Visualisierung**
+* Der Kurs erklärte elektromagnetische Felder in photonischen Strukturen. 
+* Mit Simulationen konnte ich in 2D und 3D sehen, wie Lichtwellen sich überschneiden und interagieren. 
+* Dieser visuelle Ansatz hat komplizierte Ideen einfacher gemacht.
 
-**Electromagnetic Concepts and Visualisation**
+**Verhalten photonischer Komponenten**
+Ich habe auch etwas über spezielle photonische Bauteile gelernt, zum Beispiel:
+- **Multimode-Interferometer (MMIs):** Geräte, die Licht teilen und kombinieren.
+- **Edge Coupler:** Teile, die Licht in Wellenleiter hinein- oder herausführen.
+- **Gitterkoppler (Grating Couplers):** Kleine Strukturen, die Glasfasern mit Chips verbinden.
 
-The course explained electromagnetic fields and how they behave inside a photonic structure. 
-Using simulations, I could see and explore in 2D and 3D how light waves overlap and interact. 
-This hands-on visual approach made complicated ideas easier to understand.
+### **Erreichte Fähigkeiten**
 
-**Photonic Component Behaviour**
+Durch diesen Kurs habe ich nützliche Fähigkeiten gewonnen:
+- **Simulationsbasiertes Verständnis:** Ich kann jetzt Wellenleiter-Moden und Feldmuster interpretieren.
+- **Interaktives Lernen:** Ich habe ein Gefühl für die Technik entwickelt, indem ich Parameter in Simulationen angepasst habe.
+- **Grundlagen der Photonik:** Ich weiß jetzt, wie PIC-Komponenten funktionieren und warum physikalisches Verständnis im Design wichtig ist.
 
-I also learned about specific photonic components such as:
-- Multimode Interferometers (MMIs) – devices that split and combine light
-- Edge Couplers – parts that help light enter or leave waveguides
-- Grating Couplers – small structures that connect optical fibres to chips
+Diese Fähigkeiten sind sehr wertvoll für weitere Studien in der optischen Technik oder im Photonik-Design.
 
-By experimenting with these elements in simulations, I gained a practical understanding of how PIC components behave under different conditions.
+### **Mein Fazit**
 
-### **Skills I Gained**
+Dieser Kurs war eine tolle Einführung in die integrierte Photonik. 
+Er hat Theorie mit interaktiven Werkzeugen kombiniert, um komplexe Konzepte verständlich zu machen. 
+Jetzt fühle ich mich sicher, über Wellenleiter und optische Simulationen zu sprechen. 
+Ich bin bereit für fortgeschrittene Kurse in der Photonik.
 
-By finishing this course, I gained several useful skills:
-- Simulation-based understanding of integrated photonics – I can now interpret and reason about waveguide modes and field patterns.
-- Interactive learning – The simulations helped me develop intuition by adjusting parameters and seeing results directly.
-- Foundational photonics knowledge – I now know how basic PIC components operate and why physical understanding matters in optical design.
-
-These skills are valuable for further study in optical engineering, photonics design, or research-oriented work in light-based technologies.
-
-### **My Final Thoughts**
-
-This course was a great introduction to integrated photonics using simulation-based learning. It combined theoretical ideas with interactive tools that made complex scientific concepts easier to understand. 
-Now, I feel confident talking about waveguide modes, photonic components, and the basic principles of optical simulation. I am also prepared to explore more advanced courses in photonics and optical system design.
-
-[Certificate](https://buildyourfuture.us/profile/credentials/TtY0Emb7S9G_fqx_gn8thA)
+[Zertifikat](https://buildyourfuture.us/profile/credentials/TtY0Emb7S9G_fqx_gn8thA)

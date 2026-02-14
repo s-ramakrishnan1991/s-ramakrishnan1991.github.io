@@ -1,59 +1,52 @@
 +++
 date = '2026-01-30'
-title = 'Quantum Communication and Quantum Networks'
+title = 'Quantenkommunikation und Quantennetzwerke'
 tags = ["Quantum Tech"]
 +++
 
-I recently completed the Quantum Communication and Quantum Networks course from Qureca, which is part of the QTIndu project. 
-The course took me about 5 hours to finish and was at an intermediate level. It gave me strong basic knowledge about how quantum ideas can change the way we communicate and connect systems.
+Ich habe vor Kurzem den Kurs „Quantum Communication and Quantum Networks“ von Qureca abgeschlossen, der Teil des QTIndu-Projekts ist.
+Der Kurs dauerte etwa 5 Stunden und hatte ein mittleres Niveau. Er hat mir ein gutes Basiswissen darüber gegeben, wie Quanten-Ideen die Art und Weise verändern können, wie wir kommunizieren und Systeme verbinden.
 
-### **Course Overview**
+### **Kursübersicht**
 
-This course introduced me to the world of quantum communication.
-First, it talked about how regular (classical) communication works today. Then it explained how quantum communication is different and why it is very important for future secure communication. 
-I also learned new ideas like post-quantum cryptography and quantum key distribution (QKD). These are tools that help protect information with quantum physics principles.
+Dieser Kurs war meine Einführung in die Welt der Quantenkommunikation.
+Zuerst wurde erklärt, wie die normale (klassische) Kommunikation heute funktioniert. Dann wurde gezeigt, wie die Quantenkommunikation anders ist und warum sie für die sichere Kommunikation der Zukunft sehr wichtig ist.
+Ich habe auch neue Konzepte wie Post-Quanten-Kryptografie und Quantenschlüsselverteilung (QKD) gelernt. Das sind Werkzeuge, die Informationen mit den Prinzipien der Quantenphysik schützen.
 
-### **What I Learned**
+### **Was ich gelernt habe**
 
-**Quantum Communication Basics**
+**Grundlagen der Quantenkommunikation**
+Ich habe gelernt, was Quantenkommunikation bedeutet und wie sie sich von der traditionellen Kommunikation unterscheidet.
+Der Kurs hat erklärt, wie Quantensysteme Informationen übertragen und warum das die Kommunikation sicherer machen kann als klassische Methoden.
 
-I learned what quantum communication means and how it is different from traditional communication. 
-The course explained how quantum systems can carry information and why this can make communication more secure than classical methods.
+**Quantenschlüsselverteilung (QKD)**
+Eines der wichtigsten Themen war die Quantenschlüsselverteilung (QKD). Ich habe verschiedene QKD-Methoden gelernt, zum Beispiel mit einzelnen Photonen (DV-QKD) oder mit kontinuierlichen Variablen (CV-QKD).
+Dieses Thema hat mir geholfen zu verstehen, wie zwei Personen einen geheimen Schlüssel sicher durch Quantensignale teilen können.
 
-**Quantum Key Distribution (QKD)**
+**Quantennetzwerke**
+Der Kurs behandelte auch Quantennetzwerke – Systeme, die Quantengeräte über große Distanzen verbinden. Ich habe die wichtigsten Teile dieser Netzwerke kennengelernt:
+- **Quantenverbindungen (Links):** Die „Leitungen“, die Quantensignale senden.
+- **Quantenknoten (Nodes):** Orte, an denen die Signale verarbeitet werden.
+- **Konzepte wie Quanten-Repeater und Quantenspeicher:** Diese helfen dabei, die Kommunikation in der Zukunft über sehr lange Strecken zu ermöglichen.
 
-One of the most important topics was Quantum Key Distribution. I learned about different QKD methods, including some that use single photons (DV-QKD) and others that use continuous variables (CV-QKD). 
-This topic helped me understand how two people can share a secret key securely using quantum signals.
+**Anwendungsbereiche**
+Ein weiterer Teil des Kurses zeigte, wie Quantenkommunikation in der Industrie genutzt werden kann, zum Beispiel in:
+- **Telekommunikation:** Für sicherere Verbindungen.
+- **Cyber-Sicherheit:** Um sensible Systeme zu schützen.
+- **Finanzen und Bankwesen:** Für sichere Transaktionen.
+- **Gesundheitswesen und Verteidigung:** Wo sichere Kommunikation besonders wichtig ist.
 
-**Quantum Networks**
+### **Kenntnisse und Fähigkeiten**
 
-The course also covered quantum networks — systems that connect quantum devices over distances. I learned about key parts of these networks, such as:
-- Quantum links – the “wires” that send quantum signals
-- Quantum nodes – places where the signals are processed
-- Concepts like quantum repeaters and quantum memories, which will help extend quantum communication over long distances in the future.
+Am Ende des Kurses habe ich wichtige Fähigkeiten erworben:
+- Ich kann den Unterschied zwischen klassischer und Quantenkommunikation erklären.
+- Ich verstehe die Grundlagen von QKD und Quantennetzwerken.
+- Ich kenne die wichtigsten Komponenten eines Quantenkommunikationssystems.
+- Ich weiß, in welchen Branchen diese Technologien eingesetzt werden können.
 
-**Application Areas**
+### **Mein Fazit**
 
-Another part of the course showed how quantum communication could be used in real industries, such as:
-- Telecommunications – for better secure connections
-- Cybersecurity – to protect sensitive systems
-- Finance and banking – for safe transactions
-- Healthcare and defense – where secure and reliable communication is very important
+Dieser Kurs war sehr klar und gut organisiert. Er hat mir geholfen, eine Basis in einem neuen und spannenden Bereich aufzubauen.
+Jetzt fühle ich mich sicher, über Quantenkommunikation und Quantennetzwerke zu sprechen. Ich bin bereit, mich mit noch schwierigeren Themen der Quantentechnologie zu beschäftigen.
 
-This helped me see where the technology could have real impact in the world.
-
-### **Skills and Knowledge I Gained**
-
-By the end of the course, I gained several important skills and ideas:
-- I can explain the difference between classical and quantum communication.
-- I understand the basic principles of QKD and quantum networks.
-- I know the main components of a quantum communication system.
-- I learned where these technologies might be used in different industry sectors.
-
-### **My Final Thoughts**
-
-This course was very clear and well organized. It helped me build a foundation in a new and exciting field. 
-Now I feel more confident talking about quantum communication, quantum networks, and secure quantum technologies. 
-I also feel ready to explore more advanced topics in quantum technology.
-
-[Certificate](https://lms.qureca.com/certificate-verifier/?code=5439-176-976-8236&v=5f02f0889301)
+[Zeugnis](https://lms.qureca.com/certificate-verifier/?code=5439-176-976-8236&v=5f02f0889301)

@@ -1,70 +1,59 @@
 +++
 date = '2026-01-05'
-title = 'Quantum Sensing and Imaging (QTIndu)'
+title = 'Quantensensorik und Bildgebung (QTIndu)'
 tags = ["Quantum Tech"]
 +++
 
-I recently completed the Quantum Sensing and Imaging course offered by Qureca through the QTIndu programme. 
-This course was about 30 hours long and designed for learners with some interest or background in science. 
-It helped me understand how quantum science is used to make very accurate measurements and new kinds of imaging systems.
+Ich habe vor Kurzem den Kurs „Quantum Sensing and Imaging“ von Qureca abgeschlossen, der Teil des QTIndu-Programms ist.
+Dieser Kurs dauerte etwa 30 Stunden und war für Lernende mit Interesse an Wissenschaft gedacht.
+Er hat mir geholfen zu verstehen, wie Quantenwissenschaft genutzt wird, um sehr genaue Messungen und neue Arten von Bildgebungssystemen zu entwickeln.
 
-### **Course Overview**
+### **Kursübersicht**
 
-This course gave me a clear introduction to a field called quantum sensing and imaging. 
-This area uses ideas from quantum physics to measure things in ways that are much more precise than ordinary tools. 
-It also shows how these technologies are used in real life and what companies are working on them. I found the topics interesting and practical.
+Dieser Kurs bot mir eine klare Einführung in den Bereich der Quantensensorik und Bildgebung.
+In diesem Bereich werden Ideen aus der Quantenphysik genutzt, um Dinge viel präziser zu messen als mit normalen Werkzeugen.
+Der Kurs zeigt auch, wie diese Technologien im echten Leben eingesetzt werden und welche Firmen daran arbeiten. Ich fand die Themen interessant und praktisch.
 
-### **What I Learned**
+### **Was ich gelernt habe**
 
-**Fundamental Ideas**
+**Grundlegende Ideen**
+* Ich habe die Basis-Konzepte der Quantenmechanik gelernt und warum sie für die Sensorik wichtig sind.
+* Der Kurs hat erklärt, wie sich kleinste Teilchen anders verhalten als normale Objekte.
+* Ich habe gelernt, warum das wichtig ist, wenn wir physikalische Größen wie Zeit, Magnetfelder oder Licht messen.
 
-I learned the basic ideas of quantum mechanics and why they matter for sensing and imaging. 
-The course explained how tiny particles and quantum systems behave differently from regular objects, 
-and why that matters when we measure physical quantities like time, magnetic fields, or light.
+**Arten von Quantensensoren**
+Ich habe verschiedene Arten von Quantensensoren studiert, zum Beispiel:
+- **Atomuhren:** Diese messen die Zeit extrem genau.
+- **Inertialsensoren:** Diese dienen zur Erkennung von Bewegungen.
+- **Magnetometer:** Diese messen Magnetfelder.
+- **NV-Zentren (Stickstoff-Fehlstellen-Zentren) in Diamanten:** Diese helfen dabei, sehr kleine Änderungen in magnetischen oder elektrischen Feldern zu finden.
 
-**Types of Quantum Sensors**
+**Quanten-Bildgebung**
+Der Kurs hat auch die Quanten-Bildgebung eingeführt, die spezielles Licht und Quanteneffekte nutzt, um Bilder zu machen.
+Dieses Thema hat mir gezeigt, wie Quantenzustände von Licht neue Wege bieten, um Objekte sichtbar zu machen, die mit klassischen Systemen schwer zu sehen sind.
 
-I studied different kinds of quantum sensors. For example:
+**Photonische integrierte Schaltkreise**
+Ein weiterer wichtiger Teil waren photonische integrierte Schaltkreise. Diese Technologien kombinieren viele Licht-Komponenten in winzigen Geräten.
+Ich habe gelernt, wie diese Schaltkreise in Quantensensoren genutzt werden, um sie schneller, kleiner und effizienter zu machen.
 
-- Atomic clocks that keep time extremely accurately
-- Inertial sensors for movement detection
-- Magnetometers that measure magnetic fields
-- NV (nitrogen-vacancy) centres in diamonds that help detect very small changes in magnetic or electric fields
+### **Anwendungen in der Praxis und Zukunft**
 
-Each type of sensor has unique features and uses, and learning about them broadened my view of how measurement technology is evolving.
+Der Kurs hat mir geholfen zu verstehen, wo Quantensensorik in der echten Welt genutzt wird.
+Es gab Abschnitte über Unternehmen, Fallstudien und zukünftige Trends.
+Das war sehr wertvoll, weil es nicht nur die Wissenschaft zeigte, sondern auch, wie Firmen um diese Ideen herum aufgebaut werden.
 
-**Quantum Imaging**
+### **Erreichte Fähigkeiten**
 
-The course also introduced quantum imaging, which uses special light and quantum effects to take images. 
-This topic showed me how quantum states of light can give new ways to see objects that are hard to image with classical systems.
+Am Ende des Kurses habe ich sowohl technisches Wissen als auch allgemeine Einblicke gewonnen:
+* Ich kann die Grundlagen der Quantenmechanik und die Funktion von Quantensensoren erklären.
+* Ich verstehe reale Beispiele für Quantensensorik und Bildgebungssysteme.
+* Ich habe gelernt, wie sich der Markt und diese Technologien in der Zukunft entwickeln könnten.
+* Ich habe gelernt, wie man über Innovation in einem technologischen Bereich wie der Quantenwissenschaft nachdenkt.
 
-**Photonic Integrated Circuits**
+### **Zusammenfassung**
 
-Another important part was about photonic integrated circuits. These are technologies that combine many optical (light-based) components into tiny devices. 
-I learned how such circuits can be used in quantum sensing devices to make them faster, smaller, and more efficient.
+Dieser Kurs war gut strukturiert und tief genug, um ein gutes Verständnis für Quantensensorik zu bekommen.
+Ich fühle mich sicher, über diese Themen zu sprechen und mein Wissen in anderen Bereichen der Technik anzuwenden.
+Es war eine tolle Einführung und eine starke Basis für weitere Studien.
 
-### **Real World and Future Applications**
-
-The course also helped me understand where quantum sensing is used in the real world. 
-There were sections on industry players, case studies, and future directions. 
-I found this part valuable because it showed not only the science but also how businesses and technologies are being built around these ideas.
-
-### **Skills I Gained**
-
-By the end, I gained both technical skills and broader insights:
-
-- I can explain the basics of quantum mechanics and how quantum sensors work.
-
-- I understand real examples of quantum sensing and imaging systems.
-
-- I learned about trends in the market and how these technologies might grow in the future.
-
-- I also learned how to think about business and innovation in a technological field powered by quantum science.
-
-### **My Final Thoughts**
-
-This course was well-structured and deep enough to give me a good understanding of how quantum sensing and imaging technologies work. 
-I feel confident talking about these topics and applying what I learned to other areas in science and technology. 
-It was a great introduction and a solid foundation for further study in quantum technologies
-
-[Certificate](https://lms.qureca.com/certificate-verifier/?code=5439-176-757-2671&v=5f02f0889301)
+[Zeugnis](https://lms.qureca.com/certificate-verifier/?code=5439-176-757-2671&v=5f02f0889301)

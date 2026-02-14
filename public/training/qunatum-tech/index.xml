@@ -85,9 +85,12 @@ I mastered the process of submitting jobs to IBM Quantum backends and explored s
       <description>&lt;h2 id=&#34;qworld-qbronze-online-entangling-workshop&#34;&gt;&lt;strong&gt;QWorld: QBronze Online Entangling Workshop&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Through this intensive program, I transitioned from classical programming logic to quantum-native development using Python and Qiskit. I developed a basic foundation in quantum mechanics and the algorithmic structures that drive the next generation of computing.&lt;/p&gt;
 &lt;h3 id=&#34;key-knowledge--technical-milestones&#34;&gt;&lt;strong&gt;Key Knowledge &amp;amp; Technical Milestones&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. Quantum Circuit Engineering&lt;/strong&gt;
-Qiskit Integration: Mastered the workflow for designing, building, and executing quantum circuits on simulated environments.&lt;/p&gt;
-&lt;p&gt;State Manipulation: Developed an intuition for quantum superposition and the application of the Hadamard Operator to create probabilistic states.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;1. Quantum Circuit Engineering&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Qiskit Integration:&lt;/strong&gt; Mastered the workflow for designing, building, and executing quantum circuits on simulated environments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;State Manipulation:&lt;/strong&gt; Developed an intuition for quantum superposition and the application of the Hadamard Operator to create probabilistic states.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Geometric &amp;amp; Mathematical Foundations&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
