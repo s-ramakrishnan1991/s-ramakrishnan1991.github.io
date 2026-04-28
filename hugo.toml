@@ -35,11 +35,16 @@ theme = 'PaperMod'
 	[[params.socialIcons]]
 		name = "email"
 		url = "mailto:sreenivas.ramakrishnan1991@gmail.com"
+		
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 	
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-	
+		
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 disableDefaultLanguageRedirect = false
@@ -64,7 +69,7 @@ disableDefaultLanguageRedirect = false
 	[languages.de.params.profileMode]
 		enabled = true
         title = "Sreenivas Ramakrishnan"
-        subtitle = "Optikingenieur, Quantum Technologie Fanatiker"
+        subtitle = "IBM Qiskit Advocate, Optikingenieur, Quantum Technologie Fanatiker"
 		imageUrl = "img/profile.jpg"
 		imageWidth = 140
         imageHeight = 200
@@ -96,7 +101,7 @@ disableDefaultLanguageRedirect = false
 	[languages.en.params.profileMode]
         enabled = true
         title = "Sreenivas Ramakrishnan"
-        subtitle = "Optical Engineer, Quantum Technology Fanatic"
+        subtitle = "IBM Qiskit Advocate, Optical Engineer, Quantum Technology Fanatic"
 		imageUrl = "img/profile.jpg"
 		imageWidth = 140
         imageHeight = 200

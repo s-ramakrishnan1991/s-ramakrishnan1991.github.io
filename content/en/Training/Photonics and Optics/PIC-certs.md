@@ -50,4 +50,8 @@ These skills are valuable for further study in optical engineering, photonics de
 This course was a great introduction to integrated photonics using simulation-based learning. It combined theoretical ideas with interactive tools that made complex scientific concepts easier to understand. 
 Now, I feel confident talking about waveguide modes, photonic components, and the basic principles of optical simulation. I am also prepared to explore more advanced courses in photonics and optical system design.
 
+<a href="/img/PIC.jpg" data-lightbox="gallery">
+	<img src="/img/PIC.jpg" width="200">
+</a>
+
 [Certificate](https://buildyourfuture.us/profile/credentials/TtY0Emb7S9G_fqx_gn8thA)

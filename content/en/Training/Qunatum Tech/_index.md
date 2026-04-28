@@ -1,8 +1,0 @@
-+++
-
-title = 'Quantum-Tech'
-
-+++
-
-
-

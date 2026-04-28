@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Quantum Hackathon | Sreenivas Ramakrishnan</title>
+<meta name="keywords" content="Quantum Tech">
+<meta name="description" content="Quantum Hackathon | Push Quantum (TU Munich)
+Special Mention for Innovation in Ansatz Design &amp; Software Workflow
+28 Nov 2025
+Will be updated soon
+29 Nov 2025
+Will be updated soon
+30 Nov 2025
+Hybrid Quantum Computing:
+
+I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework.
+I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments.
+
+Algorithmic Parallelization:
+
+I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule.
+This allowed for the precise identification of optimal bond lengths and ground state energies.
+
+Advanced Ansatz Engineering:
+
+I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia,
+I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead.
+
+Technical Stack
+Languages: Python">
+<meta name="author" content="">
+<link rel="canonical" href="https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://s-ramakrishnan1991.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://s-ramakrishnan1991.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://s-ramakrishnan1991.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://s-ramakrishnan1991.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://s-ramakrishnan1991.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/quantum-hackathon/">
+<link rel="alternate" hreflang="en" href="https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.js"></script>
+
+<script>
+new SimpleLightbox({ elements: 'a[data-lightbox]' });
+</script>
+<meta property="og:url" content="https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/">
+  <meta property="og:site_name" content="Sreenivas Ramakrishnan">
+  <meta property="og:title" content="Quantum Hackathon">
+  <meta property="og:description" content="Quantum Hackathon | Push Quantum (TU Munich) Special Mention for Innovation in Ansatz Design &amp; Software Workflow 28 Nov 2025
+Will be updated soon
+29 Nov 2025
+Will be updated soon
+30 Nov 2025
+Hybrid Quantum Computing: I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework. I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments. Algorithmic Parallelization: I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule. This allowed for the precise identification of optimal bond lengths and ground state energies. Advanced Ansatz Engineering: I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia, I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead. Technical Stack Languages: Python">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="training">
+    <meta property="article:published_time" content="2025-11-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-30T00:00:00+00:00">
+    <meta property="article:tag" content="Quantum Tech">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Quantum Hackathon">
+<meta name="twitter:description" content="Quantum Hackathon | Push Quantum (TU Munich)
+Special Mention for Innovation in Ansatz Design &amp; Software Workflow
+28 Nov 2025
+Will be updated soon
+29 Nov 2025
+Will be updated soon
+30 Nov 2025
+Hybrid Quantum Computing:
+
+I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework.
+I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments.
+
+Algorithmic Parallelization:
+
+I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule.
+This allowed for the precise identification of optimal bond lengths and ground state energies.
+
+Advanced Ansatz Engineering:
+
+I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia,
+I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead.
+
+Technical Stack
+Languages: Python">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Trainings",
+      "item": "https://s-ramakrishnan1991.github.io/training/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Quantum-Tech",
+      "item": "https://s-ramakrishnan1991.github.io/training/quantum-tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Quantum Hackathon",
+      "item": "https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Quantum Hackathon",
+  "name": "Quantum Hackathon",
+  "description": "Quantum Hackathon | Push Quantum (TU Munich) Special Mention for Innovation in Ansatz Design \u0026amp; Software Workflow 28 Nov 2025\nWill be updated soon\n29 Nov 2025\nWill be updated soon\n30 Nov 2025\nHybrid Quantum Computing: I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework. I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments. Algorithmic Parallelization: I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule. This allowed for the precise identification of optimal bond lengths and ground state energies. Advanced Ansatz Engineering: I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia, I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead. Technical Stack Languages: Python\n",
+  "keywords": [
+    "Quantum Tech"
+  ],
+  "articleBody": "Quantum Hackathon | Push Quantum (TU Munich) Special Mention for Innovation in Ansatz Design \u0026 Software Workflow 28 Nov 2025\nWill be updated soon\n29 Nov 2025\nWill be updated soon\n30 Nov 2025\nHybrid Quantum Computing: I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework. I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments. Algorithmic Parallelization: I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule. This allowed for the precise identification of optimal bond lengths and ground state energies. Advanced Ansatz Engineering: I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia, I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead. Technical Stack Languages: Python\nQuantum Frameworks: PennyLane, divi\nAlgorithms: VQE, UCCSD, Custom Hardware-Efficient Ansätze\nGitHub Team - Qatz\n",
+  "wordCount" : "166",
+  "inLanguage": "en",
+  "datePublished": "2025-11-30T00:00:00Z",
+  "dateModified": "2025-11-30T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sreenivas Ramakrishnan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://s-ramakrishnan1991.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://s-ramakrishnan1991.github.io/" accesskey="h" title="Sreenivas Ramakrishnan (Alt + H)">Sreenivas Ramakrishnan</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="https://s-ramakrishnan1991.github.io/de/" title="Deutsch"
+                                aria-label="Deutsch">De</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/training" title="Training and Certifications">
+                    <span>Training and Certifications</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Quantum Hackathon
+    </h1>
+    <div class="post-meta"><span title='2025-11-30 00:00:00 +0000 UTC'>November 30, 2025</span>&nbsp;|&nbsp;<span>Translations:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/quantum-hackathon/">De</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="quantum-hackathon--push-quantum-tu-munich"><strong>Quantum Hackathon | Push Quantum (TU Munich)</strong><a hidden class="anchor" aria-hidden="true" href="#quantum-hackathon--push-quantum-tu-munich">#</a></h2>
+<h2 id="special-mention-for-innovation-in-ansatz-design--software-workflow">Special Mention for Innovation in Ansatz Design &amp; Software Workflow<a hidden class="anchor" aria-hidden="true" href="#special-mention-for-innovation-in-ansatz-design--software-workflow">#</a></h2>
+<p>28 Nov 2025</p>
+<p>Will be updated soon</p>
+<p>29 Nov 2025</p>
+<p>Will be updated soon</p>
+<p>30 Nov 2025</p>
+<h3 id="hybrid-quantum-computing">Hybrid Quantum Computing:<a hidden class="anchor" aria-hidden="true" href="#hybrid-quantum-computing">#</a></h3>
+<ul>
+<li>I gained hands-on experience using the Qoro Quantum divi library to architect a distributed computing framework.</li>
+<li>I learned how to balance computational loads between classical and quantum nodes, effectively managing the handshake between the two environments.</li>
+</ul>
+<h3 id="algorithmic-parallelization">Algorithmic Parallelization:<a hidden class="anchor" aria-hidden="true" href="#algorithmic-parallelization">#</a></h3>
+<ul>
+<li>I developed a deep understanding of the Variational Quantum Eigensolver (VQE) by parallelizing instances to simulate the hydrogen molecule.</li>
+<li>This allowed for the precise identification of optimal bond lengths and ground state energies.</li>
+</ul>
+<h3 id="advanced-ansatz-engineering">Advanced Ansatz Engineering:<a hidden class="anchor" aria-hidden="true" href="#advanced-ansatz-engineering">#</a></h3>
+<ul>
+<li>I gained experience in the design of hardware-efficient custom ansätze. By developing a scalable alternative to the UCCSD (Unitary Coupled Cluster) ansatz for Ammonia,</li>
+<li>I successfully matched industry-standard accuracy while drastically reducing circuit depth and gate overhead.</li>
+</ul>
+<h3 id="technical-stack">Technical Stack<a hidden class="anchor" aria-hidden="true" href="#technical-stack">#</a></h3>
+<p>Languages: Python</p>
+<p>Quantum Frameworks: PennyLane, divi</p>
+<p>Algorithms: VQE, UCCSD, Custom Hardware-Efficient Ansätze</p>
+<p><a href="https://github.com/pedro2mj/qats/tree/main/tutorials/solutions">GitHub</a>
+<a href="https://github.com/pedro2mj/qats">Team - Qatz</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://s-ramakrishnan1991.github.io/tags/quantum-tech/">Quantum Tech</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://s-ramakrishnan1991.github.io/">Sreenivas Ramakrishnan</a></span> · 
+ 
+	<span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

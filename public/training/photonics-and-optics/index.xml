@@ -6,8 +6,19 @@
     <description>Recent content in Photonics-and-Optics-Tech on Sreenivas Ramakrishnan</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://s-ramakrishnan1991.github.io/training/photonics-and-optics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Photonic Integrated Circuits</title>
+      <link>https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-nptel/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-nptel/</guid>
+      <description>&lt;h2 id=&#34;my-learning-experience-photonic-integrated-circuits-nptel&#34;&gt;&lt;strong&gt;My Learning Experience: Photonic Integrated Circuits (NPTEL)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Course Overview&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;During this course, I explored the field of Photonic Integrated Circuits (PICs), which is an advanced topic in electrical and electronics engineering.
+The course is structured as a 12-week elective program, delivered in English, and focuses on photonics and its engineering applications.
+This learning journey introduced me to how light-based technologies are integrated into circuits, enabling high-speed communication and modern optical systems.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Integrated Photonics Simulation Library</title>
       <link>https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-certs/</link>
@@ -28,6 +39,10 @@ By studying this course, I gained practical skills in visualising and analysing 
 &lt;p&gt;&lt;strong&gt;Advanced Optical Modeling:&lt;/strong&gt; Gained expertise in modeling wavelength propagation and chromatic effects across complex optical systems.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Aberration Control:&lt;/strong&gt; Developed technical strategies for identifying and correcting higher-order aberrations to enhance instrument performance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Non-Paraxial Analysis:&lt;/strong&gt; Mastered the analysis of high-angle, non-paraxial systems where first-order approximations no longer apply.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://s-ramakrishnan1991.github.io/img/Course3.jpg&#34; width=&#34;50%&#34;/&gt; 
+&lt;/figure&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF&#34;&gt;Certificate&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;course-2-optical-efficiency-and-resolution&#34;&gt;&lt;strong&gt;Course-2 Optical Efficiency and Resolution&lt;/strong&gt;&lt;/h3&gt;
 &lt;h4 id=&#34;university-of-colorado-boulder-via-coursera--jan-2025--apr-2025&#34;&gt;University of Colorado Boulder (via Coursera) | Jan 2025 – Apr 2025&lt;/h4&gt;

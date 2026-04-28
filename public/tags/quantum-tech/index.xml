@@ -6,13 +6,52 @@
     <description>Recent content in Quantum Tech on Sreenivas Ramakrishnan</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://s-ramakrishnan1991.github.io/tags/quantum-tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Fundamentals of Quantum Algorithms - IBM</title>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/fundamentals-of-quantum-algorithms/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/fundamentals-of-quantum-algorithms/</guid>
+      <description>&lt;h2 id=&#34;quantum-algorithms--computational-advantage&#34;&gt;&lt;strong&gt;Quantum Algorithms &amp;amp; Computational Advantage&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Through this course, I have progressed from understanding quantum states to mastering the algorithms that give quantum computers their power.
+I have gained a deep understanding of how quantum logic solves specific problems faster than any classical computer.&lt;/p&gt;
+&lt;h3 id=&#34;1-mastery-of-quantum-query-algorithms&#34;&gt;&lt;strong&gt;1. Mastery of Quantum Query Algorithms&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I have learned the foundations of &amp;ldquo;Quantum Speedup&amp;rdquo; by studying query algorithms. These are essential proof-of-concept models that demonstrate why quantum computers are superior for certain tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Business Foundations - IBM</title>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-business-foundations/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-business-foundations/</guid>
+      <description>&lt;h2 id=&#34;my-experience-in-quantum-business-foundations&#34;&gt;&lt;strong&gt;My Experience in Quantum Business Foundations&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I have completed the Quantum Business Foundations course by IBM. This course taught me how to bridge the gap between complex quantum science and real-world business strategy.
+I now understand how this technology will change industries and how companies can prepare for it.&lt;/p&gt;
+&lt;h3 id=&#34;1-understanding-the-business-case-for-quantum&#34;&gt;&lt;strong&gt;1. Understanding the Business Case for Quantum&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I have learned that quantum computing is not just for scientists; it is a tool for solving massive business problems that &amp;ldquo;classical&amp;rdquo; computers (like the ones we use today) cannot handle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basics of Quantum Information - IBM</title>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/basics-of-quantum-information/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/basics-of-quantum-information/</guid>
+      <description>&lt;h2 id=&#34;foundations-of-quantum-information&#34;&gt;&lt;strong&gt;Foundations of Quantum Information&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Through this course, I have transitioned from understanding classical computers to mastering the fundamental logic of Quantum Computing.
+I have gained a professional perspective on the mathematical and physical laws that govern this technology.&lt;/p&gt;
+&lt;h3 id=&#34;1-advanced-knowledge-of-quantum-states&#34;&gt;&lt;strong&gt;1. Advanced Knowledge of Quantum States&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I have moved beyond the simple &amp;ldquo;0 or 1&amp;rdquo; of classical bits. I now understand that quantum information exists in a more complex space.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematical Modeling:&lt;/strong&gt; I am experienced in using Linear Algebra to represent quantum states. I can use vectors and complex numbers to describe where a qubit is at any moment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System Analysis:&lt;/strong&gt; I learned how to analyze Single Systems (one qubit) and Multiple Systems (many qubits). I understand how the &amp;ldquo;state space&amp;rdquo; grows as we add more qubits, which is what makes quantum computers so powerful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-design-and-logic-of-quantum-circuits&#34;&gt;&lt;strong&gt;2. Design and Logic of Quantum Circuits&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;I have gained the technical ability to &amp;ldquo;program&amp;rdquo; a quantum computer by designing circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Quantum Communication and Quantum Networks</title>
-      <link>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qcomm-certs/</link>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/qcomm-certs/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qcomm-certs/</guid>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/qcomm-certs/</guid>
       <description>&lt;p&gt;I recently completed the Quantum Communication and Quantum Networks course from Qureca, which is part of the QTIndu project.
 The course took me about 5 hours to finish and was at an intermediate level. It gave me strong basic knowledge about how quantum ideas can change the way we communicate and connect systems.&lt;/p&gt;
 &lt;h3 id=&#34;course-overview&#34;&gt;&lt;strong&gt;Course Overview&lt;/strong&gt;&lt;/h3&gt;
@@ -22,9 +61,9 @@ I also learned new ideas like post-quantum cryptography and quantum key distribu
     </item>
     <item>
       <title>Quantum Sensing and Imaging (QTIndu)</title>
-      <link>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qs-certs/</link>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/qs-certs/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qs-certs/</guid>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/qs-certs/</guid>
       <description>&lt;p&gt;I recently completed the Quantum Sensing and Imaging course offered by Qureca through the QTIndu programme.
 This course was about 30 hours long and designed for learners with some interest or background in science.
 It helped me understand how quantum science is used to make very accurate measurements and new kinds of imaging systems.&lt;/p&gt;
@@ -35,9 +74,9 @@ It also shows how these technologies are used in real life and what companies ar
     </item>
     <item>
       <title>Quantum Hackathon</title>
-      <link>https://s-ramakrishnan1991.github.io/training/qunatum-tech/quantum-hackathon/</link>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://s-ramakrishnan1991.github.io/training/qunatum-tech/quantum-hackathon/</guid>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-hackathon/</guid>
       <description>&lt;h2 id=&#34;quantum-hackathon--push-quantum-tu-munich&#34;&gt;&lt;strong&gt;Quantum Hackathon | Push Quantum (TU Munich)&lt;/strong&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;special-mention-for-innovation-in-ansatz-design--software-workflow&#34;&gt;Special Mention for Innovation in Ansatz Design &amp;amp; Software Workflow&lt;/h2&gt;
 &lt;p&gt;28 Nov 2025&lt;/p&gt;
@@ -65,9 +104,9 @@ It also shows how these technologies are used in real life and what companies ar
     </item>
     <item>
       <title>Qiskit Bootcamp</title>
-      <link>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qiskit/</link>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/qiskit/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qiskit/</guid>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/qiskit/</guid>
       <description>&lt;h2 id=&#34;qiskit-fall-fest-2025-pushquantum-online-bootcamp&#34;&gt;&lt;strong&gt;Qiskit Fall Fest 2025: PushQuantum Online Bootcamp&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;ibm-quantum-event--2025&#34;&gt;&lt;strong&gt;IBM Quantum Event | 2025&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;I deepened technical proficiency in quantum computing through an intensive bootcamp focused on the IBM Quantum ecosystem and the Qiskit framework.&lt;/p&gt;
@@ -79,9 +118,9 @@ I mastered the process of submitting jobs to IBM Quantum backends and explored s
     </item>
     <item>
       <title>Quantum Computing and Programming Workshop</title>
-      <link>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qc/</link>
+      <link>https://s-ramakrishnan1991.github.io/training/quantum-tech/qc/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://s-ramakrishnan1991.github.io/training/qunatum-tech/qc/</guid>
+      <guid>https://s-ramakrishnan1991.github.io/training/quantum-tech/qc/</guid>
       <description>&lt;h2 id=&#34;qworld-qbronze-online-entangling-workshop&#34;&gt;&lt;strong&gt;QWorld: QBronze Online Entangling Workshop&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Through this intensive program, I transitioned from classical programming logic to quantum-native development using Python and Qiskit. I developed a basic foundation in quantum mechanics and the algorithmic structures that drive the next generation of computing.&lt;/p&gt;
 &lt;h3 id=&#34;key-knowledge--technical-milestones&#34;&gt;&lt;strong&gt;Key Knowledge &amp;amp; Technical Milestones&lt;/strong&gt;&lt;/h3&gt;
