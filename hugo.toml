@@ -2,6 +2,7 @@ baseURL = 'https://s-ramakrishnan1991.github.io/'
 languageCode = 'en-us'
 title = 'Sreenivas Ramakrishnan'
 theme = 'PaperMod'
+author = "Sreenivas Ramakrishnan"
 
 [params]
     env = 'production'
@@ -12,6 +13,7 @@ theme = 'PaperMod'
 	hideFooter = false
 	disableThemeToggle = false
 	disableScrollToTop = false
+	author = "Sreenivas Ramakrishnan"
 	
     # Profile Mode settings (matches the home page of the link provided)
     #[params.profileMode]
