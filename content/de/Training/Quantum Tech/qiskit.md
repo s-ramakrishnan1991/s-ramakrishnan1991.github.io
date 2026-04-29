@@ -33,5 +33,7 @@ Ich habe an speziellen Sitzungen über die Karrierewege in der Quantentechnologi
 * **Frameworks:** Qiskit
 * **Technologien:** OpenQASM, IBM Quantum Hardware Backends
 
+{{< figure src="/img/Qiskit-Fallfest.jpg" width="75%" >}}
+
 [Zertifikat](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9jODlmNWQ4MTEzNDYwMzA1L0VmNUU5bVcxdzQ5S2xTcXV3OWJLQXE4Qm1KVVpLMl9pWWdlOU1wYndqVTJJYlE%5FZT0yNko4ejY&cid=C89F5D8113460305&id=C89F5D8113460305%21s65f644fec3b54a8f952aaec3d6ca02af&parId=C89F5D8113460305%21sd42ab916e06d40d5bfce8221f5fe1e53&o=OneUp)
 [GitHub](https://github.com/s-ramakrishnan1991/Qiskit/blob/master/Qiskit_challenge_2025.ipynb)

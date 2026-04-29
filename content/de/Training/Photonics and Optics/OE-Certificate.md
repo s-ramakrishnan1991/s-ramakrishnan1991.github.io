@@ -13,6 +13,10 @@ tags = ["Optik"]
 * **Aberrationskontrolle:** Ich habe technische Strategien entwickelt, um Aberrationen höherer Ordnung zu korrigieren und die Leistung von Instrumenten zu verbessern.
 * **Nicht-paraxiale Analyse:** Ich habe gelernt, wie man Systeme mit hohen Winkeln analysiert, bei denen einfache Annäherungen nicht mehr ausreichen.
 
+<a href="/img/Course3.jpg" data-lightbox="gallery">
+	<img src="/img/Course3.jpg" width="200">
+</a>
+
 [Zertifikat](https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF)
 
 ### **Kurs 2: Optische Effizienz und Auflösung**
@@ -26,6 +30,10 @@ tags = ["Optik"]
 * Design von paraxialen Gauß-Systemen, wie zum Beispiel Faser-Kollimatoren und Raumfilter.
 * Entwicklung eines afokalen Kepler-Teleskops von Grund auf basierend auf technischen Vorgaben.
 
+<a href="/img/Course2.jpg" data-lightbox="gallery">
+	<img src="/img/Course2.jpg" width="200">
+</a>
+
 [Zertifikat](https://www.coursera.org/account/accomplishments/certificate/662M04NFP8YC)
 
 ### **Kurs 1: Optisches Design erster Ordnung**
@@ -35,6 +43,10 @@ tags = ["Optik"]
 * **Optisches Systemdesign:** Ich habe Zemax OpticStudio genutzt, um digitale Zwillinge von optischen Systemen für Simulationen zu erstellen.
 * **Diagnostische Analyse:** Ich habe die Systemqualität durch Spot-Diagramme, MTF-Kurven und Ray-Fan-Plots analysiert.
 * **Algorithmen-Anwendung:** Ich habe lokale und globale Optimierer genutzt, um ideale Lösungen in komplexen Parameterräumen zu finden.
+
+<a href="/img/Course1.jpg" data-lightbox="gallery">
+	<img src="/img/Course1.jpg" width="200">
+</a>
 
 [Zertifikat](https://www.coursera.org/account/accomplishments/certificate/LNW7IH5PQEH1)
 

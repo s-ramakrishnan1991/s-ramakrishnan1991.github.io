@@ -56,6 +56,8 @@ This course was very clear and well organized. It helped me build a foundation i
 Now I feel more confident talking about quantum communication, quantum networks, and secure quantum technologies. 
 I also feel ready to explore more advanced topics in quantum technology.
 
-{{< figure src="/img/QN.jpg" width="75%" >}}
+<a href="/img/QN.jpg" data-lightbox="gallery">
+	<img src="/img/QN.jpg" width="200">
+</a>
 
 [Certificate](https://lms.qureca.com/certificate-verifier/?code=5439-176-976-8236&v=5f02f0889301)

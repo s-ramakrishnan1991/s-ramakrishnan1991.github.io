@@ -50,4 +50,8 @@ Er hat Theorie mit interaktiven Werkzeugen kombiniert, um komplexe Konzepte vers
 Jetzt fühle ich mich sicher, über Wellenleiter und optische Simulationen zu sprechen. 
 Ich bin bereit für fortgeschrittene Kurse in der Photonik.
 
+<a href="/img/PIC.jpg" data-lightbox="gallery">
+	<img src="/img/PIC.jpg" width="200">
+</a>
+
 [Zertifikat](https://buildyourfuture.us/profile/credentials/TtY0Emb7S9G_fqx_gn8thA)

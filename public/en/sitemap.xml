@@ -4,6 +4,16 @@
   <url>
     <loc>https://s-ramakrishnan1991.github.io/training/quantum-tech/fundamentals-of-quantum-algorithms/</loc>
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/fundamentals-of-quantum-algorithms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://s-ramakrishnan1991.github.io/training/quantum-tech/fundamentals-of-quantum-algorithms/"
+                />
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/tags/quantum-tech/</loc>
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
@@ -72,6 +82,16 @@
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-nptel/</loc>
     <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-nptel/"
+                />
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/tags/photonics/</loc>
     <lastmod>2026-04-15T00:00:00+00:00</lastmod>
@@ -91,9 +111,29 @@
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-business-foundations/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/quantum-business-foundations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://s-ramakrishnan1991.github.io/training/quantum-tech/quantum-business-foundations/"
+                />
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/training/quantum-tech/basics-of-quantum-information/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://s-ramakrishnan1991.github.io/training/quantum-tech/basics-of-quantum-information/"
+                />
   </url><url>
     <loc>https://s-ramakrishnan1991.github.io/blog/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>

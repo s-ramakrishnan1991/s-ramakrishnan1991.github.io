@@ -49,4 +49,8 @@ Am Ende des Kurses habe ich wichtige Fähigkeiten erworben:
 Dieser Kurs war sehr klar und gut organisiert. Er hat mir geholfen, eine Basis in einem neuen und spannenden Bereich aufzubauen.
 Jetzt fühle ich mich sicher, über Quantenkommunikation und Quantennetzwerke zu sprechen. Ich bin bereit, mich mit noch schwierigeren Themen der Quantentechnologie zu beschäftigen.
 
+<a href="/img/QN.jpg" data-lightbox="gallery">
+	<img src="/img/QN.jpg" width="200">
+</a>
+
 [Zeugnis](https://lms.qureca.com/certificate-verifier/?code=5439-176-976-8236&v=5f02f0889301)

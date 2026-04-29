@@ -15,7 +15,9 @@ tags = ["Optics"]
 
 **Non-Paraxial Analysis:** Mastered the analysis of high-angle, non-paraxial systems where first-order approximations no longer apply.
 
-{{< figure src="/img/Course3.jpg" width="50%" >}}
+<a href="/img/Course3.jpg" data-lightbox="gallery">
+	<img src="/img/Course3.jpg" width="200">
+</a>
 
 [Certificate](https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF)
 
@@ -34,7 +36,9 @@ Designed paraxial Gaussian systems, including fiber collimators and spatial filt
 
 Engineered an afocal Keplerian telescope from scratch based on rigorous technical specifications.
 
-{{< figure src="/img/Course2.jpg" width="50%" >}}
+<a href="/img/Course2.jpg" data-lightbox="gallery">
+	<img src="/img/Course2.jpg" width="200">
+</a>
 
 [Certificate](https://www.coursera.org/account/accomplishments/certificate/662M04NFP8YC)
 
@@ -49,7 +53,9 @@ Engineered an afocal Keplerian telescope from scratch based on rigorous technica
 
 **Algorithm Application:** Leveraged both local and global optimizers to find ideal design solutions within complex parameter spaces.
 
-{{< figure src="/img/Course1.jpg" width="50%" >}}
+<a href="/img/Course1.jpg" data-lightbox="gallery">
+	<img src="/img/Course1.jpg" width="200">
+</a>
 
 [Certificate](https://www.coursera.org/account/accomplishments/certificate/LNW7IH5PQEH1)
 

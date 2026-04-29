@@ -23,7 +23,7 @@ I have gained knowledge in one of the most famous areas of quantum computing: br
 ### **3. Unstructured Search with Grover’s Algorithm**
 I have developed the skills to speed up the process of searching through data that is not organized.
 
-* **Grover’s Algorithm:** I know how to use "Amplitude Amplification" to find a specific item in a database. I understand that while a classical search takes $N$ steps, a quantum search only takes approximately $\sqrt{N}$ steps.
+* **Grover’s Algorithm:** I know how to use "Amplitude Amplification" to find a specific item in a database. I understand that while a classical search takes $ N $ steps, a quantum search only takes approximately $\sqrt{N}$ steps.
 * **Iterative Analysis:** I can calculate the correct number of iterations needed to maximize the probability of finding the right answer, ensuring the algorithm is efficient.
 
 ### **4. Computational Complexity and Cost**
@@ -38,6 +38,6 @@ Algorithmic Logic: Ability to design logic that utilizes superposition and inter
 * **Mathematical Sophistication:** Deep understanding of Modular Arithmetic and Fourier Transforms in a quantum context.
 * **Strategic Insight:** Knowledge of which industries (like cybersecurity or material science) will be impacted first by these specific algorithms.
 
-{{< figure src="/img/fundamentals-of-quantum-algorithms.png" width="50%" >}}
+{{< figure src="/img/fundamentals-of-quantum-algorithms.png" width="30%" >}}
 
 [Certificate](https://www.credly.com/badges/762a8717-2839-483b-929d-96c0be99b689/linked_in_profile)

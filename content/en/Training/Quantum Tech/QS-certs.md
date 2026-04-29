@@ -67,6 +67,8 @@ This course was well-structured and deep enough to give me a good understanding 
 I feel confident talking about these topics and applying what I learned to other areas in science and technology. 
 It was a great introduction and a solid foundation for further study in quantum technologies
 
-{{< figure src="/img/QS.jpg" width="75%" >}}
+<a href="/img/QS.jpg" data-lightbox="gallery">
+	<img src="/img/QS.jpg" width="200">
+</a>
 
 [Certificate](https://lms.qureca.com/certificate-verifier/?code=5439-176-757-2671&v=5f02f0889301)

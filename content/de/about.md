@@ -3,7 +3,7 @@ title = 'Über mich'
 +++
 
 * Ich wohne in München und begeistere mich sehr für die Bereiche Optik und Quantentechnologien.
-Da ich neu im Bereich Quantentechnologie bin, sammele ich gerade viel Erfahrung durch Zertifizierungen und Workshops. [Training und Zertifizierungen – Quantum Tech](https://s-ramakrishnan1991.github.io/de/training/qunatum-tech/)
+Da ich neu im Bereich Quantentechnologie bin, sammele ich gerade viel Erfahrung durch Zertifizierungen und Workshops. [Training und Zertifizierungen – Quantum Tech](https://s-ramakrishnan1991.github.io/training/quantum-tech/)
 * Letztes Jahr habe ich am Quantum Hackathon von *Push Quantum* in München teilgenommen. Das hat mich motiviert, Neues zu lernen, im Team zu arbeiten und unter Zeitdruck Ergebnisse zu liefern.
 Dieses Erlebnis hat mein Interesse noch mehr geweckt. Hier findest du Details zu meinem ersten aktuellen [Projekt](https://s-ramakrishnan1991.github.io/projects/).
 

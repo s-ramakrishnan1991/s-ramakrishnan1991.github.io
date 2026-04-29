@@ -32,6 +32,8 @@ Through this intensive program, I transitioned from classical programming logic 
 * **Frameworks:** Qiskit (IBM Quantum)
 * **Concepts:** Linear Algebra, Quantum Logic Gates, Sub-linear Search Algorithms, Quantum Information Theory
 
-{{< figure src="/img/QBronze169-60.jpg" width="75%" >}}
+<a href="/img/QBronze169-60.jpg" data-lightbox="gallery">
+	<img src="/img/QBronze169-60.jpg" width="150">
+</a>
 
 [Certificate](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9jODlmNWQ4MTEzNDYwMzA1L0VWUFRYSzJVcC1KUHJlaXYzUnRxd1JJQkJDWk5Cb1dFY1BfSTNOUUkxdTJaUXc_ZT16WTlkT1g&cid=C89F5D8113460305&id=C89F5D8113460305%21sad5cd353a7944fe2ade8afdd1b6ac112&parId=C89F5D8113460305%21sd42ab916e06d40d5bfce8221f5fe1e53&o=OneUp&v=validatepermission)

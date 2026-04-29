@@ -3,7 +3,7 @@ title = 'About Me'
 +++
 
 * I reside in Munich, Germany and l am passionate about the field of Optics and Quantum Technologies. 
-As I am new to the field of Quantum, I am exposing myself by doing relevant certifications and attending workshops. [Training and Certifications - Quantum Tech](https://s-ramakrishnan1991.github.io/training/qunatum-tech/)
+As I am new to the field of Quantum, I am exposing myself by doing relevant certifications and attending workshops. [Training and Certifications - Quantum Tech](https://s-ramakrishnan1991.github.io/training/quantum-tech/)
 * Last year, I attended the Quantum Hackathon organised by Push Quantum (Munich) which pushed me to learn, work as a team and execute under time limits. 
 This kindled my interest even more and you can find my details to my first on-going [project](https://s-ramakrishnan1991.github.io/projects/). 
 

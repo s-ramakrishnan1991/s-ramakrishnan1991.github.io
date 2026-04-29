@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="de" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Integrierte photonische Schaltungen | Sreenivas Ramakrishnan</title>
+<meta name="keywords" content="Photonik">
+<meta name="description" content="Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL)
+Kursübersicht
+In diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik.
+Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen.
+Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.">
+<meta name="author" content="Sreenivas Ramakrishnan">
+<link rel="canonical" href="https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://s-ramakrishnan1991.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://s-ramakrishnan1991.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://s-ramakrishnan1991.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://s-ramakrishnan1991.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://s-ramakrishnan1991.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/">
+<link rel="alternate" hreflang="en" href="https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-nptel/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.js"></script>
+
+<script>
+new SimpleLightbox({ elements: 'a[data-lightbox]' });
+</script>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  }
+};
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<meta property="og:url" content="https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/">
+  <meta property="og:site_name" content="Sreenivas Ramakrishnan">
+  <meta property="og:title" content="Integrierte photonische Schaltungen">
+  <meta property="og:description" content="Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL) Kursübersicht
+In diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik. Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen. Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="training">
+    <meta property="article:published_time" content="2026-04-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-15T00:00:00+00:00">
+    <meta property="article:tag" content="Photonik">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Integrierte photonische Schaltungen">
+<meta name="twitter:description" content="Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL)
+Kursübersicht
+In diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik.
+Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen.
+Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Weiterbildung",
+      "item": "https://s-ramakrishnan1991.github.io/de/training/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Photonik-and-Optik-Tech",
+      "item": "https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Integrierte photonische Schaltungen",
+      "item": "https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Integrierte photonische Schaltungen",
+  "name": "Integrierte photonische Schaltungen",
+  "description": "Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL) Kursübersicht\nIn diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik. Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen. Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.\n",
+  "keywords": [
+    "Photonik"
+  ],
+  "articleBody": "Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL) Kursübersicht\nIn diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik. Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen. Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.\nWas ich gelernt habe 1. Grundlagen der geführten Wellenoptik Ich habe die Physik der Lichteinschließung und der Lichtausbreitung in integrierten Strukturen gelernt.\nElektromagnetische Grundlagen: Ich verstehe die Theorie der elektromagnetischen Wellen in photonischen Medien. Wellenleiter-Design: Ich habe die technischen Fähigkeiten erworben, um optische Wellenleiter zu entwerfen – von den Maxwell-Gleichungen bis hin zu den praktischen Parametern für die Lichtführung. Kopplungsmechanismen: Ich weiß, wie man Licht effizient von externen Glasfasern in Wellenleitersysteme auf einem Chip einkoppelt. 2. Materialtechnologie \u0026 Herstellung Ich habe Fachwissen über die Materialien und Prozesse erworben, die für den Bau von photonischen Chips benötigt werden.\nMaterialplattformen: Ich kenne die Technologie hinter verschiedenen Substraten wie Silizium (Si), III-V-Halbleitern und Siliziumnitrid. Ich verstehe deren Vorteile für die CMOS-Kompatibilität und die optische Leistung. Herstellungsprozesse: Ich habe den gesamten Fertigungszyklus studiert, einschließlich Lithografie, Ätzen und Abscheidungstechniken speziell für photonische Schaltkreise. Charakterisierung: Ich habe Einblicke in die experimentellen Aufbauten erhalten, mit denen die Leistung von photonischen Geräten getestet und überprüft wird. 3. Integrierte photonische Bauteile (Passiv \u0026 Aktiv) Ich kann nun sowohl stationäre als auch steuerbare Komponenten auf einem Chip entwerfen und analysieren.\nPassive Komponenten: Meine Kenntnisse umfassen das Design von Filtern, Splittern und Interferometern (wie Mach-Zehnder-Strukturen), die Licht ohne externe Energie manipulieren. Aktive Komponenten: Ich verstehe die Funktionsweise von Lichtquellen (Laser/LEDs), Halbleitermodulatoren und Hochgeschwindigkeits-Photodetektoren, die direkt auf der photonischen Plattform integriert sind. Materialtechnik: Ich habe fortgeschrittene Techniken untersucht, um die Geschwindigkeit, Effizienz und Größe der Bauteile zu optimieren. 4. Industrieanwendungen \u0026 Trends Ich verstehe nun auch die wirtschaftliche und wissenschaftliche Bedeutung der PIC-Technologie.\nOptische Kommunikation: Ich kann photonische Schaltkreise nutzen, um Probleme bei der Datenübertragung in Rechenzentren zu lösen. Integrierte Sensorik: Ich habe gelernt, wie man Sensorik auf dem Chip für chemische, biologische und ökologische Überwachung einsetzt. Zukunftstechnologien: Ich habe mich mit der Roadmap der Silizium-Photonik beschäftigt und gelernt, wie neue Materialien die nächste Generation von Lichtwellenschaltkreisen vorantreiben werden. Erreichte Fähigkeiten und Kenntnisse Durch diesen Kurs habe ich folgende Fähigkeiten entwickelt:\nOptisches Design: Sicherer Umgang mit Wellenleitern und Gerätearchitektur. Technologisches Verständnis: Tiefes Wissen über das Ökosystem der Silizium-Photonik und CMOS-kompatible Prozesse. Fachübergreifender Einblick: Die Fähigkeit, Verbindungen zwischen klassischer Optik und integrierten photonischen Systemen für die Industrie herzustellen. Meine abschließenden Gedanken Dieser Kurs hat mein Verständnis dafür, wie die Photonik die Zukunft der Elektronik und Kommunikation prägt, erheblich verbessert. Er hat die Lücke zwischen Theorie und Praxis geschlossen und mir das Vertrauen gegeben, mich weiter mit fortgeschrittenen Themen der optischen Technik zu beschäftigen.\n",
+  "wordCount" : "470",
+  "inLanguage": "de",
+  "datePublished": "2026-04-15T00:00:00Z",
+  "dateModified": "2026-04-15T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Sreenivas Ramakrishnan"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sreenivas Ramakrishnan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://s-ramakrishnan1991.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://s-ramakrishnan1991.github.io/de/" accesskey="h" title="Sreenivas Ramakrishnan (Alt + H)">Sreenivas Ramakrishnan</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="https://s-ramakrishnan1991.github.io/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/de/" title="Startseite">
+                    <span>Startseite</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/de/about/" title="Über mich">
+                    <span>Über mich</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/de/training/" title="Schulungen und Zertifizierungen">
+                    <span>Schulungen und Zertifizierungen</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Integrierte photonische Schaltungen
+    </h1>
+    <div class="post-meta"><span title='2026-04-15 00:00:00 +0000 UTC'>15. April 2026</span>&nbsp;·&nbsp;<span>Sreenivas Ramakrishnan</span>&nbsp;|&nbsp;<span>Übersetzungen:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="https://s-ramakrishnan1991.github.io/training/photonics-and-optics/pic-nptel/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="meine-lernerfahrung-photonic-integrated-circuits-nptel"><strong>Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL)</strong><a hidden class="anchor" aria-hidden="true" href="#meine-lernerfahrung-photonic-integrated-circuits-nptel">#</a></h2>
+<p><em>Kursübersicht</em></p>
+<p>In diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik.
+Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen.
+Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.</p>
+<h3 id="was-ich-gelernt-habe"><strong>Was ich gelernt habe</strong><a hidden class="anchor" aria-hidden="true" href="#was-ich-gelernt-habe">#</a></h3>
+<p><strong>1. Grundlagen der geführten Wellenoptik</strong>
+Ich habe die Physik der Lichteinschließung und der Lichtausbreitung in integrierten Strukturen gelernt.</p>
+<ul>
+<li>Elektromagnetische Grundlagen: Ich verstehe die Theorie der elektromagnetischen Wellen in photonischen Medien.</li>
+<li>Wellenleiter-Design: Ich habe die technischen Fähigkeiten erworben, um optische Wellenleiter zu entwerfen – von den Maxwell-Gleichungen bis hin zu den praktischen Parametern für die Lichtführung.</li>
+<li>Kopplungsmechanismen: Ich weiß, wie man Licht effizient von externen Glasfasern in Wellenleitersysteme auf einem Chip einkoppelt.</li>
+</ul>
+<p><strong>2. Materialtechnologie &amp; Herstellung</strong>
+Ich habe Fachwissen über die Materialien und Prozesse erworben, die für den Bau von photonischen Chips benötigt werden.</p>
+<ul>
+<li>Materialplattformen: Ich kenne die Technologie hinter verschiedenen Substraten wie Silizium (Si), III-V-Halbleitern und Siliziumnitrid. Ich verstehe deren Vorteile für die CMOS-Kompatibilität und die optische Leistung.</li>
+<li>Herstellungsprozesse: Ich habe den gesamten Fertigungszyklus studiert, einschließlich Lithografie, Ätzen und Abscheidungstechniken speziell für photonische Schaltkreise.</li>
+<li>Charakterisierung: Ich habe Einblicke in die experimentellen Aufbauten erhalten, mit denen die Leistung von photonischen Geräten getestet und überprüft wird.</li>
+</ul>
+<p><strong>3. Integrierte photonische Bauteile (Passiv &amp; Aktiv)</strong>
+Ich kann nun sowohl stationäre als auch steuerbare Komponenten auf einem Chip entwerfen und analysieren.</p>
+<ul>
+<li>Passive Komponenten: Meine Kenntnisse umfassen das Design von Filtern, Splittern und Interferometern (wie Mach-Zehnder-Strukturen), die Licht ohne externe Energie manipulieren.</li>
+<li>Aktive Komponenten: Ich verstehe die Funktionsweise von Lichtquellen (Laser/LEDs), Halbleitermodulatoren und Hochgeschwindigkeits-Photodetektoren, die direkt auf der photonischen Plattform integriert sind.</li>
+<li>Materialtechnik: Ich habe fortgeschrittene Techniken untersucht, um die Geschwindigkeit, Effizienz und Größe der Bauteile zu optimieren.</li>
+</ul>
+<p><strong>4. Industrieanwendungen &amp; Trends</strong>
+Ich verstehe nun auch die wirtschaftliche und wissenschaftliche Bedeutung der PIC-Technologie.</p>
+<ul>
+<li>Optische Kommunikation: Ich kann photonische Schaltkreise nutzen, um Probleme bei der Datenübertragung in Rechenzentren zu lösen.</li>
+<li>Integrierte Sensorik: Ich habe gelernt, wie man Sensorik auf dem Chip für chemische, biologische und ökologische Überwachung einsetzt.</li>
+<li>Zukunftstechnologien: Ich habe mich mit der Roadmap der Silizium-Photonik beschäftigt und gelernt, wie neue Materialien die nächste Generation von Lichtwellenschaltkreisen vorantreiben werden.</li>
+</ul>
+<h3 id="erreichte-fähigkeiten-und-kenntnisse"><strong>Erreichte Fähigkeiten und Kenntnisse</strong><a hidden class="anchor" aria-hidden="true" href="#erreichte-fähigkeiten-und-kenntnisse">#</a></h3>
+<p>Durch diesen Kurs habe ich folgende Fähigkeiten entwickelt:</p>
+<ul>
+<li>Optisches Design: Sicherer Umgang mit Wellenleitern und Gerätearchitektur.</li>
+<li>Technologisches Verständnis: Tiefes Wissen über das Ökosystem der Silizium-Photonik und CMOS-kompatible Prozesse.</li>
+<li>Fachübergreifender Einblick: Die Fähigkeit, Verbindungen zwischen klassischer Optik und integrierten photonischen Systemen für die Industrie herzustellen.</li>
+</ul>
+<h3 id="meine-abschließenden-gedanken"><strong>Meine abschließenden Gedanken</strong><a hidden class="anchor" aria-hidden="true" href="#meine-abschließenden-gedanken">#</a></h3>
+<p>Dieser Kurs hat mein Verständnis dafür, wie die Photonik die Zukunft der Elektronik und Kommunikation prägt, erheblich verbessert.
+Er hat die Lücke zwischen Theorie und Praxis geschlossen und mir das Vertrauen gegeben, mich weiter mit fortgeschrittenen Themen der optischen Technik zu beschäftigen.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://s-ramakrishnan1991.github.io/de/tags/photonik/">Photonik</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://s-ramakrishnan1991.github.io/de/">Sreenivas Ramakrishnan</a></span> · 
+ 
+	<span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

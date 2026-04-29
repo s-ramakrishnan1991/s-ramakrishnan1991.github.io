@@ -179,14 +179,10 @@ I mastered the process of submitting jobs to IBM Quantum backends and explored s
 &lt;p&gt;&lt;strong&gt;Advanced Optical Modeling:&lt;/strong&gt; Gained expertise in modeling wavelength propagation and chromatic effects across complex optical systems.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Aberration Control:&lt;/strong&gt; Developed technical strategies for identifying and correcting higher-order aberrations to enhance instrument performance.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Non-Paraxial Analysis:&lt;/strong&gt; Mastered the analysis of high-angle, non-paraxial systems where first-order approximations no longer apply.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;https://s-ramakrishnan1991.github.io/img/Course3.jpg&#34; width=&#34;50%&#34;/&gt; 
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF&#34;&gt;Certificate&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;course-2-optical-efficiency-and-resolution&#34;&gt;&lt;strong&gt;Course-2 Optical Efficiency and Resolution&lt;/strong&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;university-of-colorado-boulder-via-coursera--jan-2025--apr-2025&#34;&gt;University of Colorado Boulder (via Coursera) | Jan 2025 – Apr 2025&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Fourier Optics &amp;amp; Resolution:&lt;/strong&gt; Applied Fourier Optics principles to determine theoretical resolution limits and imaging system performance.&lt;/p&gt;</description>
+&lt;a href=&#34;https://s-ramakrishnan1991.github.io/img/Course3.jpg&#34; data-lightbox=&#34;gallery&#34;&gt;
+	&lt;img src=&#34;https://s-ramakrishnan1991.github.io/img/Course3.jpg&#34; width=&#34;200&#34;&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF&#34;&gt;Certificate&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quantum Computing and Programming Workshop</title>
@@ -210,7 +206,7 @@ I mastered the process of submitting jobs to IBM Quantum backends and explored s
       <guid>https://s-ramakrishnan1991.github.io/about/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;I reside in Munich, Germany and l am passionate about the field of Optics and Quantum Technologies.
-As I am new to the field of Quantum, I am exposing myself by doing relevant certifications and attending workshops. &lt;a href=&#34;https://s-ramakrishnan1991.github.io/training/qunatum-tech/&#34;&gt;Training and Certifications - Quantum Tech&lt;/a&gt;&lt;/li&gt;
+As I am new to the field of Quantum, I am exposing myself by doing relevant certifications and attending workshops. &lt;a href=&#34;https://s-ramakrishnan1991.github.io/training/quantum-tech/&#34;&gt;Training and Certifications - Quantum Tech&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Last year, I attended the Quantum Hackathon organised by Push Quantum (Munich) which pushed me to learn, work as a team and execute under time limits.
 This kindled my interest even more and you can find my details to my first on-going &lt;a href=&#34;https://s-ramakrishnan1991.github.io/projects/&#34;&gt;project&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;

@@ -34,4 +34,8 @@ Ich habe Python und Qiskit genutzt, um eine Basis in Quantenmechanik und Quanten
 * **Frameworks:** Qiskit (IBM Quantum)
 * **Konzepte:** Lineare Algebra, Quantengates, Suchalgorithmen, Quanteninformationstheorie
 
+<a href="/img/QBronze169-60.jpg" data-lightbox="gallery">
+	<img src="/img/QBronze169-60.jpg" width="150">
+</a>
+
 [Zertifikat](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9jODlmNWQ4MTEzNDYwMzA1L0VWUFRYSzJVcC1KUHJlaXYzUnRxd1JJQkJDWk5Cb1dFY1BfSTNOUUkxdTJaUXc_ZT16WTlkT1g&cid=C89F5D8113460305&id=C89F5D8113460305%21sad5cd353a7944fe2ade8afdd1b6ac112&parId=C89F5D8113460305%21sd42ab916e06d40d5bfce8221f5fe1e53&o=OneUp&v=validatepermission)

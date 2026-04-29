@@ -6,8 +6,58 @@
     <description>Recent content on Sreenivas Ramakrishnan</description>
     <generator>Hugo -- 0.155.2</generator>
     <language>de</language>
-    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://s-ramakrishnan1991.github.io/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grundlagen der Quantenalgorithmen - IBM</title>
+      <link>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/fundamentals-of-quantum-algorithms/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/fundamentals-of-quantum-algorithms/</guid>
+      <description>&lt;h2 id=&#34;quantenalgorithmen--rechenvorteil&#34;&gt;&lt;strong&gt;Quantenalgorithmen &amp;amp; Rechenvorteil&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Durch diesen Kurs habe ich gelernt, wie man von einfachen Quantenzuständen zu den Algorithmen gelangt, die Quantencomputern ihre Kraft verleihen.
+Ich habe ein tiefes Verständnis dafür entwickelt, wie Quantenlogik bestimmte Probleme schneller löst als jeder klassische Computer.&lt;/p&gt;
+&lt;h3 id=&#34;1-beherrschung-von-quanten-abfragealgorithmen&#34;&gt;&lt;strong&gt;1. Beherrschung von Quanten-Abfragealgorithmen&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ich habe die Grundlagen des „Quantum Speedup“ (Quanten-Beschleunigung) durch das Studium von Abfragealgorithmen gelernt. Dies sind wichtige Modelle, die beweisen, warum Quantencomputer bei bestimmten Aufgaben überlegen sind.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Integrierte photonische Schaltungen</title>
+      <link>https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/de/training/photonics-and-optics/pic-nptel/</guid>
+      <description>&lt;h2 id=&#34;meine-lernerfahrung-photonic-integrated-circuits-nptel&#34;&gt;&lt;strong&gt;Meine Lernerfahrung: Photonic Integrated Circuits (NPTEL)&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Kursübersicht&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In diesem Kurs habe ich mich mit dem Bereich der photonisch integrierten Schaltkreise (PICs) beschäftigt. Dies ist ein fortgeschrittenes Thema der Elektrotechnik.
+Der Kurs ist als 12-wöchiges Wahlfach konzipiert, wird auf Englisch unterrichtet und konzentriert sich auf die Photonik und ihre technischen Anwendungen.
+Diese Lernreise hat mir gezeigt, wie lichtbasierte Technologien in Schaltkreise integriert werden, um Hochgeschwindigkeitskommunikation und moderne optische Systeme zu ermöglichen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Business Foundations - IBM</title>
+      <link>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/quantum-business-foundations/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/quantum-business-foundations/</guid>
+      <description>&lt;h2 id=&#34;meine-erfahrung-in-quantum-business-foundations&#34;&gt;&lt;strong&gt;Meine Erfahrung in Quantum Business Foundations&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Ich habe den Kurs „Quantum Business Foundations“ von IBM abgeschlossen. In diesem Kurs habe ich gelernt, wie man die Lücke zwischen komplexer Quantenwissenschaft und realer Geschäftsstrategie schließt.
+Ich verstehe jetzt, wie diese Technologie Industrien verändern wird und wie Unternehmen sich darauf vorbereiten können.&lt;/p&gt;
+&lt;h3 id=&#34;1-den-business-case-für-quantentechnologie-verstehen&#34;&gt;&lt;strong&gt;1. Den Business Case für Quantentechnologie verstehen&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ich habe gelernt, dass Quantencomputing nicht nur etwas für Wissenschaftler ist. Es ist ein Werkzeug, um große geschäftliche Probleme zu lösen, die „klassische“ Computer (wie wir sie heute nutzen) nicht bewältigen können.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grundlagen der Quanteninformation - IBM</title>
+      <link>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/</guid>
+      <description>&lt;h2 id=&#34;grundlagen-der-quanteninformation&#34;&gt;&lt;strong&gt;Grundlagen der Quanteninformation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft.
+Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.&lt;/p&gt;
+&lt;h3 id=&#34;1-fortgeschrittene-kenntnisse-über-quantenzustände&#34;&gt;&lt;strong&gt;1. Fortgeschrittene Kenntnisse über Quantenzustände&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematische Modellierung:&lt;/strong&gt; Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systemanalyse:&lt;/strong&gt; Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-design-und-logik-von-quantenschaltkreisen&#34;&gt;&lt;strong&gt;2. Design und Logik von Quantenschaltkreisen&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Quantenkommunikation und Quantennetzwerke</title>
       <link>https://s-ramakrishnan1991.github.io/de/training/quantum-tech/qcomm-certs/</link>
@@ -130,6 +180,9 @@ Ich habe gelernt, wie man Rechenaufträge (Jobs) an die IBM Quantum-Hardware sen
 &lt;li&gt;&lt;strong&gt;Aberrationskontrolle:&lt;/strong&gt; Ich habe technische Strategien entwickelt, um Aberrationen höherer Ordnung zu korrigieren und die Leistung von Instrumenten zu verbessern.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Nicht-paraxiale Analyse:&lt;/strong&gt; Ich habe gelernt, wie man Systeme mit hohen Winkeln analysiert, bei denen einfache Annäherungen nicht mehr ausreichen.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;a href=&#34;https://s-ramakrishnan1991.github.io/img/Course3.jpg&#34; data-lightbox=&#34;gallery&#34;&gt;
+	&lt;img src=&#34;https://s-ramakrishnan1991.github.io/img/Course3.jpg&#34; width=&#34;200&#34;&gt;
+&lt;/a&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/account/accomplishments/certificate/8HZ2QC9MWLGF&#34;&gt;Zertifikat&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -155,7 +208,7 @@ Ich habe Python und Qiskit genutzt, um eine Basis in Quantenmechanik und Quanten
       <guid>https://s-ramakrishnan1991.github.io/de/about/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Ich wohne in München und begeistere mich sehr für die Bereiche Optik und Quantentechnologien.
-Da ich neu im Bereich Quantentechnologie bin, sammele ich gerade viel Erfahrung durch Zertifizierungen und Workshops. &lt;a href=&#34;https://s-ramakrishnan1991.github.io/de/training/qunatum-tech/&#34;&gt;Training und Zertifizierungen – Quantum Tech&lt;/a&gt;&lt;/li&gt;
+Da ich neu im Bereich Quantentechnologie bin, sammele ich gerade viel Erfahrung durch Zertifizierungen und Workshops. &lt;a href=&#34;https://s-ramakrishnan1991.github.io/training/quantum-tech/&#34;&gt;Training und Zertifizierungen – Quantum Tech&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Letztes Jahr habe ich am Quantum Hackathon von &lt;em&gt;Push Quantum&lt;/em&gt; in München teilgenommen. Das hat mich motiviert, Neues zu lernen, im Team zu arbeiten und unter Zeitdruck Ergebnisse zu liefern.
 Dieses Erlebnis hat mein Interesse noch mehr geweckt. Hier findest du Details zu meinem ersten aktuellen &lt;a href=&#34;https://s-ramakrishnan1991.github.io/projects/&#34;&gt;Projekt&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;

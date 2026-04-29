@@ -41,6 +41,6 @@ I have practical, hands-on experience using Qiskit, the industry-standard softwa
 * **Technical Literacy:** Comfortable with the terminology and mathematical tools of the quantum industry.
 * **Problem Solving:** Skilled at using entanglement and interference to solve computational puzzles.
 
-{{< figure src="/img/basics-of-quantum-information.png" width="50%" >}}
+{{< figure src="/img/basics-of-quantum-information.png" width="30%" >}}
 
 [Certificate](https://www.credly.com/badges/ddd49d23-70e0-45a7-8730-d2dcfd244b3c/linked_in_profile)

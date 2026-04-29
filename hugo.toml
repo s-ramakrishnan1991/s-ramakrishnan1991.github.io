@@ -13,6 +13,7 @@ author = "Sreenivas Ramakrishnan"
 	hideFooter = false
 	disableThemeToggle = false
 	disableScrollToTop = false
+	math = true
 	author = "Sreenivas Ramakrishnan"
 	
     # Profile Mode settings (matches the home page of the link provided)

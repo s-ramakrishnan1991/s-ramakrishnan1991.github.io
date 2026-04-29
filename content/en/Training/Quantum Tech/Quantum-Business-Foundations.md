@@ -40,6 +40,6 @@ I am now familiar with the tools and roadmaps used by industry leaders like IBM.
 * **Market Insight:** I can explain the "tipping point" of quantum commercialization to stakeholders.
 * **Risk Management:** I understand how to protect data and evaluate the feasibility of quantum use cases.
 
-{{< figure src="/img/quantum-business-foundations.png" width="50%" >}}
+{{< figure src="/img/quantum-business-foundations.png" width="30%" >}}
 
 [Certificate](https://www.credly.com/badges/67c44ca8-1eb5-4179-a19e-ba00be8c6e2e/linked_in_profile)

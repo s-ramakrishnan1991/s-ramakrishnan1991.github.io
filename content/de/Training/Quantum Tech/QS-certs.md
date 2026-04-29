@@ -56,4 +56,8 @@ Dieser Kurs war gut strukturiert und tief genug, um ein gutes Verständnis für 
 Ich fühle mich sicher, über diese Themen zu sprechen und mein Wissen in anderen Bereichen der Technik anzuwenden.
 Es war eine tolle Einführung und eine starke Basis für weitere Studien.
 
+<a href="/img/QS.jpg" data-lightbox="gallery">
+	<img src="/img/QS.jpg" width="200">
+</a>
+
 [Zeugnis](https://lms.qureca.com/certificate-verifier/?code=5439-176-757-2671&v=5f02f0889301)

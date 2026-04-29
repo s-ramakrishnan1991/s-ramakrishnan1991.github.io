@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="de" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Grundlagen der Quanteninformation - IBM | Sreenivas Ramakrishnan</title>
+<meta name="keywords" content="Quantum Tech">
+<meta name="description" content="Grundlagen der Quanteninformation
+Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft.
+Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.
+1. Fortgeschrittene Kenntnisse über Quantenzustände
+Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.
+
+Mathematische Modellierung: Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet.
+Systemanalyse: Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht.
+
+2. Design und Logik von Quantenschaltkreisen
+Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.">
+<meta name="author" content="Sreenivas Ramakrishnan">
+<link rel="canonical" href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a29c24210eb31d9ce56f669c66a35c9c51b17376b7764e336a49af7dec914cf0.css" integrity="sha256-opwkIQ6zHZzlb2acZqNcnFGxc3a3dk4zakmvfeyRTPA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://s-ramakrishnan1991.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://s-ramakrishnan1991.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://s-ramakrishnan1991.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://s-ramakrishnan1991.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://s-ramakrishnan1991.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://s-ramakrishnan1991.github.io/training/quantum-tech/basics-of-quantum-information/">
+<link rel="alternate" hreflang="de" href="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.js"></script>
+
+<script>
+new SimpleLightbox({ elements: 'a[data-lightbox]' });
+</script>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  }
+};
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<meta property="og:url" content="https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/">
+  <meta property="og:site_name" content="Sreenivas Ramakrishnan">
+  <meta property="og:title" content="Grundlagen der Quanteninformation - IBM">
+  <meta property="og:description" content="Grundlagen der Quanteninformation Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft. Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.
+1. Fortgeschrittene Kenntnisse über Quantenzustände Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.
+Mathematische Modellierung: Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet. Systemanalyse: Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht. 2. Design und Logik von Quantenschaltkreisen Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.">
+  <meta property="og:locale" content="de">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="training">
+    <meta property="article:published_time" content="2026-03-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-03-23T00:00:00+00:00">
+    <meta property="article:tag" content="Quantum Tech">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Grundlagen der Quanteninformation - IBM">
+<meta name="twitter:description" content="Grundlagen der Quanteninformation
+Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft.
+Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.
+1. Fortgeschrittene Kenntnisse über Quantenzustände
+Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.
+
+Mathematische Modellierung: Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet.
+Systemanalyse: Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht.
+
+2. Design und Logik von Quantenschaltkreisen
+Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Weiterbildung",
+      "item": "https://s-ramakrishnan1991.github.io/de/training/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Quantum-Tech",
+      "item": "https://s-ramakrishnan1991.github.io/de/training/quantum-tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Grundlagen der Quanteninformation - IBM",
+      "item": "https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Grundlagen der Quanteninformation - IBM",
+  "name": "Grundlagen der Quanteninformation - IBM",
+  "description": "Grundlagen der Quanteninformation Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft. Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.\n1. Fortgeschrittene Kenntnisse über Quantenzustände Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.\nMathematische Modellierung: Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet. Systemanalyse: Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht. 2. Design und Logik von Quantenschaltkreisen Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.\n",
+  "keywords": [
+    "Quantum Tech"
+  ],
+  "articleBody": "Grundlagen der Quanteninformation Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft. Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.\n1. Fortgeschrittene Kenntnisse über Quantenzustände Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.\nMathematische Modellierung: Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet. Systemanalyse: Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht. 2. Design und Logik von Quantenschaltkreisen Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.\nUnitäre Gatter: Ich weiß, wie man Quantengatter (wie Hadamard oder CNOT) verwendet, um Qubits zu drehen oder miteinander zu verbinden. Messung und Wahrscheinlichkeit: Ich verstehe, dass wir in der Quantenmechanik das genaue Ergebnis nicht immer vorhersagen können. Ich habe gelernt, wie man die Wahrscheinlichkeit eines Ergebnisses berechnet. Das No-Cloning-Theorem: Ich habe die theoretischen Grenzen der Quanteninformation studiert – insbesondere die Tatsache, dass man keine identische Kopie eines unbekannten Quantenzustands erstellen kann. 3. Beherrschung der Quantenverschränkung Die Verschränkung ist der bekannteste Teil der Quantenphysik, und ich habe gelernt, sie als Werkzeug für die Kommunikation zu nutzen.\nQuantenteleportation: Ich kann den Prozess erklären und simulieren, bei dem ein Quantenzustand von einem Ort an einen anderen übertragen wird, ohne das Teilchen selbst physisch zu bewegen. Superdense Coding: Ich habe gelernt, wie man zwei Bits klassischer Daten über ein einziges Qubit sendet, indem man ein verschränktes Paar nutzt. Verletzung des lokalen Realismus (CHSH-Spiel): Ich habe die CHSH-Ungleichung untersucht. Sie beweist, dass Quantensysteme stärker „synchronisiert“ sein können als jedes klassische System. Dieses Wissen ist wichtig für Quantensicherheit und Netzwerke. 4. Programmierung mit Qiskit Ich habe praktische Erfahrung mit Qiskit gesammelt, der Standardsoftware von IBM.\nCode-Implementierung: Ich kann komplexe physikalische Gleichungen in Python-Code übersetzen. Echte Hardware: Ich kann meine Schaltkreise auf echter Quanten-Hardware in der Cloud ausführen und die Ergebnisse (Histogramme) richtig interpretieren. Simulation: Ich kann Simulatoren nutzen, um meine Theorien zu testen, bevor ich sie auf echter Hardware laufen lasse. Kernkompetenzen Analytisches Denken: Ich kann Informationen mit Quantenlogik statt klassischer Logik verarbeiten. Technisches Verständnis: Ich bin vertraut mit der Fachsprache und den mathematischen Werkzeugen der Quantenindustrie. Problemlösung: Ich kann Verschränkung und Interferenz nutzen, um komplexe Rechenaufgaben zu lösen. Certificate\n",
+  "wordCount" : "428",
+  "inLanguage": "de",
+  "datePublished": "2026-03-23T00:00:00Z",
+  "dateModified": "2026-03-23T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Sreenivas Ramakrishnan"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://s-ramakrishnan1991.github.io/de/training/quantum-tech/basics-of-quantum-information/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sreenivas Ramakrishnan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://s-ramakrishnan1991.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://s-ramakrishnan1991.github.io/de/" accesskey="h" title="Sreenivas Ramakrishnan (Alt + H)">Sreenivas Ramakrishnan</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="https://s-ramakrishnan1991.github.io/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/de/" title="Startseite">
+                    <span>Startseite</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/de/about/" title="Über mich">
+                    <span>Über mich</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://s-ramakrishnan1991.github.io/de/training/" title="Schulungen und Zertifizierungen">
+                    <span>Schulungen und Zertifizierungen</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Grundlagen der Quanteninformation - IBM
+    </h1>
+    <div class="post-meta"><span title='2026-03-23 00:00:00 +0000 UTC'>23. März 2026</span>&nbsp;·&nbsp;<span>Sreenivas Ramakrishnan</span>&nbsp;|&nbsp;<span>Übersetzungen:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="https://s-ramakrishnan1991.github.io/training/quantum-tech/basics-of-quantum-information/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="grundlagen-der-quanteninformation"><strong>Grundlagen der Quanteninformation</strong><a hidden class="anchor" aria-hidden="true" href="#grundlagen-der-quanteninformation">#</a></h2>
+<p>Durch diesen Kurs habe ich den Übergang vom Verständnis klassischer Computer zur Beherrschung der grundlegenden Logik des Quantencomputings geschafft.
+Ich habe eine professionelle Perspektive auf die mathematischen und physikalischen Gesetze gewonnen, die diese Technologie bestimmen.</p>
+<h3 id="1-fortgeschrittene-kenntnisse-über-quantenzustände"><strong>1. Fortgeschrittene Kenntnisse über Quantenzustände</strong><a hidden class="anchor" aria-hidden="true" href="#1-fortgeschrittene-kenntnisse-über-quantenzustände">#</a></h3>
+<p>Ich sehe nun mehr als nur das einfache „0 oder 1“ klassischer Bits. Ich verstehe jetzt, dass Quanteninformationen in einem komplexeren Raum existieren.</p>
+<ul>
+<li><strong>Mathematische Modellierung:</strong> Ich habe Erfahrung in der Verwendung von Linearer Algebra, um Quantenzustände darzustellen. Ich kann Vektoren und komplexe Zahlen nutzen, um zu beschreiben, wo sich ein Qubit zu jedem Zeitpunkt befindet.</li>
+<li><strong>Systemanalyse:</strong> Ich habe gelernt, einzelne Systeme (ein Qubit) und multiple Systeme (viele Qubits) zu analysieren. Ich verstehe, wie der „Zustandsraum“ wächst, wenn wir mehr Qubits hinzufügen – das ist es, was Quantencomputer so leistungsstark macht.</li>
+</ul>
+<h3 id="2-design-und-logik-von-quantenschaltkreisen"><strong>2. Design und Logik von Quantenschaltkreisen</strong><a hidden class="anchor" aria-hidden="true" href="#2-design-und-logik-von-quantenschaltkreisen">#</a></h3>
+<p>Ich habe die technische Fähigkeit erworben, einen Quantencomputer durch das Entwerfen von Schaltkreisen zu „programmieren“.</p>
+<ul>
+<li><strong>Unitäre Gatter:</strong> Ich weiß, wie man Quantengatter (wie Hadamard oder CNOT) verwendet, um Qubits zu drehen oder miteinander zu verbinden.</li>
+<li><strong>Messung und Wahrscheinlichkeit:</strong> Ich verstehe, dass wir in der Quantenmechanik das genaue Ergebnis nicht immer vorhersagen können. Ich habe gelernt, wie man die Wahrscheinlichkeit eines Ergebnisses berechnet.</li>
+<li><strong>Das No-Cloning-Theorem:</strong> Ich habe die theoretischen Grenzen der Quanteninformation studiert – insbesondere die Tatsache, dass man keine identische Kopie eines unbekannten Quantenzustands erstellen kann.</li>
+</ul>
+<h3 id="3-beherrschung-der-quantenverschränkung"><strong>3. Beherrschung der Quantenverschränkung</strong><a hidden class="anchor" aria-hidden="true" href="#3-beherrschung-der-quantenverschränkung">#</a></h3>
+<p>Die Verschränkung ist der bekannteste Teil der Quantenphysik, und ich habe gelernt, sie als Werkzeug für die Kommunikation zu nutzen.</p>
+<ul>
+<li><strong>Quantenteleportation:</strong> Ich kann den Prozess erklären und simulieren, bei dem ein Quantenzustand von einem Ort an einen anderen übertragen wird, ohne das Teilchen selbst physisch zu bewegen.</li>
+<li><strong>Superdense Coding:</strong> Ich habe gelernt, wie man zwei Bits klassischer Daten über ein einziges Qubit sendet, indem man ein verschränktes Paar nutzt.</li>
+<li><strong>Verletzung des lokalen Realismus (CHSH-Spiel):</strong> Ich habe die CHSH-Ungleichung untersucht. Sie beweist, dass Quantensysteme stärker „synchronisiert“ sein können als jedes klassische System. Dieses Wissen ist wichtig für Quantensicherheit und Netzwerke.</li>
+</ul>
+<h3 id="4-programmierung-mit-qiskit"><strong>4. Programmierung mit Qiskit</strong><a hidden class="anchor" aria-hidden="true" href="#4-programmierung-mit-qiskit">#</a></h3>
+<p>Ich habe praktische Erfahrung mit Qiskit gesammelt, der Standardsoftware von IBM.</p>
+<ul>
+<li><strong>Code-Implementierung:</strong> Ich kann komplexe physikalische Gleichungen in Python-Code übersetzen.</li>
+<li><strong>Echte Hardware:</strong> Ich kann meine Schaltkreise auf echter Quanten-Hardware in der Cloud ausführen und die Ergebnisse (Histogramme) richtig interpretieren.</li>
+<li><strong>Simulation:</strong> Ich kann Simulatoren nutzen, um meine Theorien zu testen, bevor ich sie auf echter Hardware laufen lasse.</li>
+</ul>
+<h3 id="kernkompetenzen"><strong>Kernkompetenzen</strong><a hidden class="anchor" aria-hidden="true" href="#kernkompetenzen">#</a></h3>
+<ul>
+<li><strong>Analytisches Denken:</strong> Ich kann Informationen mit Quantenlogik statt klassischer Logik verarbeiten.</li>
+<li><strong>Technisches Verständnis:</strong> Ich bin vertraut mit der Fachsprache und den mathematischen Werkzeugen der Quantenindustrie.</li>
+<li><strong>Problemlösung:</strong> Ich kann Verschränkung und Interferenz nutzen, um komplexe Rechenaufgaben zu lösen.</li>
+</ul>
+<figure>
+    <img loading="lazy" src="/img/basics-of-quantum-information.png" width="30%"/> 
+</figure>
+
+<p><a href="https://www.credly.com/badges/ddd49d23-70e0-45a7-8730-d2dcfd244b3c/linked_in_profile">Certificate</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://s-ramakrishnan1991.github.io/de/tags/quantum-tech/">Quantum Tech</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://s-ramakrishnan1991.github.io/de/">Sreenivas Ramakrishnan</a></span> · 
+ 
+	<span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
